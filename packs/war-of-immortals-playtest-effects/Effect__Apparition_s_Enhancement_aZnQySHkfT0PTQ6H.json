@@ -1,0 +1,103 @@
+{
+  "name": "Effect: Apparition's Enhancement",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>An assisting apparition reaches a hand or other limb into your magic as you cast it, then uses it to cover one weapon you're wielding or one unarmed attack you have with additional magical power. Until the end of your turn, the weapon or unarmed attack deals an extra 1d6 spirit damage and gains the divine trait, if it didn't have it already.</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon",
+            "unarmed"
+          ]
+        },
+        "flag": "apparitionEnhancement",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "{item|flags.pf2e.rulesSelections.apparitionEnhancement}-damage",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "damageType": "spirit",
+        "label": "Apparition's Enhancement"
+      },
+      {
+        "definition": [
+          "item|flags.pf2e.rulesSelections.apparitionEnhancement"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "divine"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "unidentified": false
+  },
+  "_id": "aZnQySHkfT0PTQ6H",
+  "img": "icons/magic/control/energy-stream-link-spiral-white.webp",
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.3",
+    "coreVersion": "12.327",
+    "createdTime": 1692989999939,
+    "modifiedTime": 1695253923650,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!aZnQySHkfT0PTQ6H"
+}

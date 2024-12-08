@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Stalker in Darkened Boughs",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Stalkers in darkened boughs make their homes in ancient forests and jungles unfriendly to humanoids and others who would exert control or influence over nature's designs. These apparitions are drawn to animists who harbor violent thoughts or impulses but are more likely to linger with animists who can quell their hatred. Stalkers in darkened boughs are moody, impulsive, and prone to seeing things from the least charitable perspective.</p>\n<h2>Apparition Skills</h2>\n<p>Forest Lore, Herbalism Lore</p>\n<h2>Apparition Spells</h2>\n<p><strong>Cantrip</strong> <em>@Compendium[pf2e.spells-srd.MPxbKoR54gkYkqLO]{Gouging Claw}</em>; <strong>1st</strong> <em>@Compendium[pf2e.spells-srd.EE7Q5BHIrfWNCPtT]{Runic Body}</em>; <strong>2nd</strong> <em>@Compendium[pf2e.spells-srd.J6vNvrUT3b1hx2iA]{Entangling Flora}</em>; <strong>3rd</strong> <em>@Compendium[pf2e.spells-srd.KsWhliKfUs3IpW3c]{Wall of Thorns}</em>; <strong>4th</strong> <em>@Compendium[pf2e.spells-srd.qvwIwJ9QBihy8R0t]{Speak with Plants}</em>; <strong>5th</strong> <em>@Compendium[pf2e.spells-srd.YtesyvfAIwXOqISq]{Moon Frenzy}</em>; <strong>6th</strong> <em>@Compendium[pf2e.spells-srd.JbAcSLu62TU1OgNF]{Tangling Creepers}</em>; <strong>7th</strong> <em>@Compendium[pf2e.spells-srd.bVtkBJvGLP69qVGI]{Unfettered Pack}</em>; <strong>8th</strong> <em>@Compendium[pf2e.spells-srd.8AMvNVOUEtxBCDvJ]{Monstrosity Form}</em>; <strong>9th</strong> <em>@Compendium[pf2e.spells-srd.yLJROsQtyrPIKcDx]{Wrathful Storm}</em></p>\n<h2>Vessel Spell</h2>\n<p><em>@Compendium[pf2e-playtest-data.war-of-immortals-playtest-spells.nPJHG83cVsrKGcmY]{Darkened Forest Form}</em></p>\n<h2>Avatar</h2>\n<p><strong>Beast of the Boughs</strong> Speed 70 feet, fly Speed 70 feet;</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> devouring jaws (deadly d10, reach 15 feet), <strong>Damage</strong> 6d10+6 piercing</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_animist"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/spells/false-vision.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.3",
+    "coreVersion": "12.327",
+    "createdTime": 1693019816227,
+    "modifiedTime": 1695253991306,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "Lb1pfIgYX7plpwgX",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Lb1pfIgYX7plpwgX"
+}

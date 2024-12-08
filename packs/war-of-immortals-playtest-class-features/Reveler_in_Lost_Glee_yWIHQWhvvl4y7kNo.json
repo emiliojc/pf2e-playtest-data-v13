@@ -1,0 +1,73 @@
+{
+  "name": "Reveler in Lost Glee",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Revelers in lost glee are twisted apparitions that arise in desolate and abandoned places where people once found great joy. They find immense mirth in causing harm or discomfort to others and don't enjoy being attuned to animists who fail to laugh at their antics.</p>\n<h2>Apparition Skills</h2>\n<p>Circus Lore, Fortune-Telling Lore</p>\n<h2>Apparition Spells</h2>\n<p><strong>Cantrip </strong><em>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation}</em>; <strong>1st</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.UKsIOWmMx4hSpafl]{Color Spray}</em>; <strong>2nd</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]{Hideous Laughter}</em>; <strong>3rd</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]{Hypnotic Pattern}</em>; <strong>4th</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY]{Confusion}</em>; <strong>5th</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{Illusory Scene}</em>; <strong>6th</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.RQjSQVZRG497cJhX]{Vibrant Pattern}</em>; <strong>7th</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs]{Warp Mind}</em>; <strong>8th</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Maze}</em>; <strong>9th</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.FEsuyf203wTNE2et]{Wail of the Banshee}</em></p>\n<h2>Vessel Spell</h2>\n<p><em>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-spells.Item.nIxd3ZZPnSD096t0]{Trickster's Mirrors}</em></p>\n<h2>Avatar</h2>\n<p><strong>Ringmaster of the Dark Celebration</strong> Speed 50 feet, ignore difficult terrain and greater difficult terrain; Melee <span class=\"pf2-icon\">1</span> ringmaster's whip (reach 15 feet, trip), Damage 6d10+6 slashing; Ranged <span class=\"pf2-icon\">1</span> feast of the lost (acid, range 120 feet, versatile void), Damage 6d6+6 acid</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "Paizo Blog"
+    },
+    "schema": {
+      "version": 0.864,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/spells/clownish-curse.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.3",
+    "coreVersion": "12.327",
+    "createdTime": 1695252618254,
+    "modifiedTime": 1695253971298,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "yWIHQWhvvl4y7kNo",
+  "sort": 0,
+  "_key": "!items!yWIHQWhvvl4y7kNo"
+}

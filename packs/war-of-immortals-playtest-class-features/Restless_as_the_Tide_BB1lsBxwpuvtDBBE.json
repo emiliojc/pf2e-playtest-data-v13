@@ -1,0 +1,108 @@
+{
+  "folder": null,
+  "name": "Restless as the Tide",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your dominion is over the ocean, the great source and ultimate taker of lives. You gain the @Compendium[pf2e.feats-srd.iOY6YfGBaOvMNAor]{Underwater Marauder} feat. You can choose for any spirit damage dealt by your exemplar abilities to instead manifest as surging streams of water, changing the damage type to bludgeoning and replacing the spirit trait with the water trait. Your weapon ikon gains the following abilities.</p>\n<p><strong>Immanence</strong> When you critically succeed on a Strike, you deal splash damage equal to the number of weapon damage dice to all creatures within 10 feet. The splash damage is bludgeoning and has the water trait.</p>\n<p><strong>Transcend</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.oS3fxvVUgF6QeDIH]{Sea's Claim}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e.feats-srd.Item.iOY6YfGBaOvMNAor"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.oS3fxvVUgF6QeDIH"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{actor|flags.pf2e.exemplar.weaponIkon.id}-damage",
+        "value": "@weapon.system.damage.dice",
+        "damageType": "bludgeoning",
+        "damageCategory": "splash",
+        "critical": true,
+        "predicate": [
+          "immanence:weapon"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "{actor|flags.pf2e.exemplar.weaponIkon.id}-damage",
+        "text": "When you critically succeed on a Strike, you deal splash damage equal to the number of weapon damage dice to all creatures within 10 feet. The splash damage is bludgeoning and has the water trait.",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "immanence:weapon"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/magic/water/vortex-water-whirlpool-blue.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693750758277,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "BB1lsBxwpuvtDBBE",
+  "sort": 3700000,
+  "_key": "!items!BB1lsBxwpuvtDBBE"
+}

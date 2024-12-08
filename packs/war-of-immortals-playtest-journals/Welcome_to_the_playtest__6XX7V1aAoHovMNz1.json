@@ -1,0 +1,62 @@
+{
+  "name": "Welcome to the playtest!",
+  "_id": "6XX7V1aAoHovMNz1",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Welcome",
+      "type": "text",
+      "_id": "Z4HEp0JnHXNiicQf",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>Hello GMs!</p><p>We hope you enjoy the Pathfinder playtest module. You can find the original playtest documents and give feedback about the classes themselves on <a href=\"https://paizo.com/pathfinderplaytest\">paizo.com/pathfinderplaytest</a>. If you have feedback on this module you can reach out on <a href=\"https://discord.gg/pf2e\">our discord</a>, but be aware that once the playtest is over we won't be updating the module.</p><p>If you enjoy this module, or any of the work we do on the Pathfinder second edition system for Foundry please consider visiting our <a href=\"https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&amp;teamID=63664\">Extra Life</a> page, where we help raise money for the Extra Life charity. We have not added incentives to our pages yet this year, but we do have some planned and we think you'll all like them. Last year, for example, immunity, weakness, and resistance handling was part of our incentives and helped us to raise over $10,000.</p><p>A community member, GM the Gnome, has donated a <a href=\"https://paizo.com/products/btq02eq0\">$80 asset pack</a> for the brand new PFS packs. They’ve asked it be given to a Extra Life donor who donates during this playtest. Foundry’s RNG will decide and the RNG will be weighted, increasing weight with every $5 that person donated this month to charity through the PF2e team's extra life</p><p>Thank you, and have fun!</p><img src=\"modules/pf2e-playtest-data/assets/gameday.webp\" /><p></p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.4.1",
+        "coreVersion": "12.327",
+        "createdTime": 1693578248746,
+        "modifiedTime": 1693579535471,
+        "lastModifiedBy": "qA45GVv5hySaf9b5",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
+      "_key": "!journal.pages!6XX7V1aAoHovMNz1.Z4HEp0JnHXNiicQf"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.1",
+    "coreVersion": "12.327",
+    "createdTime": 1693578242937,
+    "modifiedTime": 1693579535471,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!journal!6XX7V1aAoHovMNz1"
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Channeler",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Channelers tend to associate more freely with a wide array of apparitions, as they are naturally skilled at acting as conduits for spiritual energy. While they tend not to form deep bonds with a single apparition, they are able to wield the power of multiple apparitions with great ease. Channelers are often travelers, itinerant merchants, or similar drifters, carrying stories from town to town. They often associate with apparitions of local natural features they find themselves near: for instance, bonding with a steward of stone and fire when traversing a volcanic caldera.</p>\n<hr />\n<p><strong> Initial Boon</strong>: At 1st level, you gain the @UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-feats.Item.sGKursdBYDehFYuJ]{Channeler's Stance} feat and the @UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.G2croA4K8EXWbMRl]{Apparition's Whirl} action.</p>\n<p><strong>Intermediary Boon</strong>: At 9th level, your proficiency rank for Fortitude saves increases to master. When you roll a success on a Will save, you get a critical success instead.</p>\n<p>**Note: This is what is printed in the playtest; we are awaiting clarification, but we have implemented this as \"When you roll a success on a <strong>Fortitude</strong> Save, you get a critical success instead\"</p>\n<p><strong>Greater Boon</strong>: At 13th level, your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.</p>\n<p><strong>Ultimate Boon</strong>: At 17th level, the first time in an encounter you enter a specific stance granted by an animist feat, you gain a number of temporary Hit Points equal to half your level + 2 (minimum 3). These temporary Hit Points last for 1 minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.G2croA4K8EXWbMRl",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-feats.Item.sGKursdBYDehFYuJ",
+        "allowDuplicate": false
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "success"
+        ],
+        "selector": "fortitude",
+        "text": "PF2E.SpecificRule.SaveSuccessToCriticalSuccess.Fortitude",
+        "title": "Intermediary Boon",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "fortitude",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank",
+        "value": 3,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.unarmored.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.light.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.medium.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "channeler",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "sajymHLRBubPISL6": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692979752700,
+    "modifiedTime": 1693750985644,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "DCDHjeBcQSEdiRBX",
+  "sort": 5900000,
+  "_key": "!items!DCDHjeBcQSEdiRBX"
+}

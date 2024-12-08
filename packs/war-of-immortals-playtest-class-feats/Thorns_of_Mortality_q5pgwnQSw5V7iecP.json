@@ -1,0 +1,84 @@
+{
+  "folder": null,
+  "name": "Thorns of Mortality",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>By channeling your divinity into a creature along with a strike, you can disrupt their ability to recover. Your weapon ikon gains the following ability.</p>\n<p><strong>Immanence</strong> When you successfully damage an enemy with your weapon ikon, your power lingers within them, taking the form of barbs and thorns that dig in to prevent healing. When the target would regain Hit Points, such as from a healing effect or an ability like fast healing or regeneration, it must attempt a @Check[type:will|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC to determine the effects, and then the barbs dissipate. The barbs also dissipate after 1 minute.</p>\n<hr />\n<p><strong>Success</strong> The creature regains the full number of Hit Points that would be healed.</p>\n<p><strong>Failure</strong> The creature regains only half the number of Hit Points.</p>\n<p><strong>Critical Failure</strong> The creature does not regain Hit Points.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "{actor|flags.pf2e.exemplar.weaponIkon.id}-damage",
+        "text": "<p>When you successfully damage an enemy with your weapon ikon, your power lingers within them, taking the form of barbs and thorns that dig in to prevent healing. When the target would regain Hit Points, such as from a healing effect or an ability like fast healing or regeneration, it must attempt a @Check[type:will|dc:resolve(@actor.system.attributes.classDC.value)] save against your class DC to determine the effects, and then the barbs dissipate. The barbs also dissipate after 1 minute.</p>\n<hr>\n<p><strong>Success</strong> The creature regains the full number of Hit Points that would be healed.</p>\n<p><strong>Failure</strong> The creature regains only half the number of Hit Points.</p>\n<p><strong>Critical Failure</strong> The creature does not regain Hit Points.</p>",
+        "title": "{item|name}",
+        "predicate": [
+          "immanence:weapon"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar",
+        "void"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693005966839,
+    "modifiedTime": 1693858313916,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "q5pgwnQSw5V7iecP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!q5pgwnQSw5V7iecP"
+}

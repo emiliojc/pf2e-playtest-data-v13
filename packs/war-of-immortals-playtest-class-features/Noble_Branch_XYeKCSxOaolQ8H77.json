@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Noble Branch",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Usage</strong> any weapon in the spear or polearm weapon group, or the staff, bo staff, fighting stick, or khakkara</p>\n<hr />\n<p>This simple stick-like weapon has a simplicity and elegance to it all its own.</p>\n<p><strong>Immanence</strong> Your weapon ikon deals 2 additional spirit damage per weapon damage die to creatures it Strikes.</p>\n<p><strong>Transcend</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.4BI7VObdozZYkmug]{Strike, Breathe, Rend}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.4BI7VObdozZYkmug"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{actor|flags.pf2e.exemplar.weaponIkon.id}-damage",
+        "value": "2*@weapon.system.damage.dice",
+        "predicate": [
+          "immanence:weapon"
+        ],
+        "damageType": "spirit"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_ikon"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/weapons/polearms/javelin-simple.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693750759887,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "XYeKCSxOaolQ8H77",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!XYeKCSxOaolQ8H77"
+}

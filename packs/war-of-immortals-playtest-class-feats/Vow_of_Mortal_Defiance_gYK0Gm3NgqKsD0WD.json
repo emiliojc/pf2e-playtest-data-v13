@@ -1,0 +1,81 @@
+{
+  "folder": null,
+  "name": "Vow of Mortal Defiance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Having seen the wreckage left by the gods and their servitors as they play in their great war of good and evil, you've come to the only reasonable conclusion: that they all must be cut from their silken thrones. You swear a vow to defeat one creature within 60 feet that has the holy or unholy trait. The first time each round that you deal damage to that creature, you deal an additional @Damage[1d6[spirit]] damage. You cannot use Vow of Mortal Defiance again until your or the target is defeated, flees, or the encounter ends.</p>\n<hr />\n<p><strong>Special</strong> If you take this feat, you can't become sanctified with the holy or unholy trait. Retraining out of this feat typically requires a major change of philosophy.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "concentrate",
+        "hb_exemplar",
+        "linguistic",
+        "mental"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You are not sanctified with the holy or unholy trait."
+        }
+      ]
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693005966839,
+    "modifiedTime": 1693858317579,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "gYK0Gm3NgqKsD0WD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!gYK0Gm3NgqKsD0WD"
+}

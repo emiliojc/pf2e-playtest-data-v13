@@ -1,0 +1,122 @@
+{
+  "name": "Grudge Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> One of the apparitions you are attuned to grants Heraldry Lore or Underworld Lore as an apparition skill.</p>\n<hr />\n<p>You channel the spiritual power of ancient rivalries or spiteful grudges into a devastating attack. Make a melee Strike against a creature within your reach. You gain a +2 circumstance bonus to this attack and deal an additional @Damage[2d6[negative]] damage to the target; if the target is undead, this Strike instead deals an additional @Damage[2d6[positive]] damage. This ability gains the vitality trait if it deals vitality damage, or the void trait if it deals void damage.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "grudge-strike",
+        "toggleable": true
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 2,
+        "dieSize": "d6",
+        "damageType": "positive",
+        "predicate": [
+          "grudge-strike",
+          {
+            "or": [
+              "target:trait:undead",
+              "target:negative-healing"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": 2,
+        "dieSize": "d6",
+        "damageType": "negative",
+        "predicate": [
+          "grudge-strike",
+          "target:mode:living",
+          {
+            "not": "target:negative-healing"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-attack-roll",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "grudge-strike"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "hb_animist",
+        "hb_apparition",
+        "hb_wandering"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "_id": "HMqpHQvhJrxCXAJX",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693001903932,
+    "modifiedTime": 1693159303306,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!HMqpHQvhJrxCXAJX"
+}

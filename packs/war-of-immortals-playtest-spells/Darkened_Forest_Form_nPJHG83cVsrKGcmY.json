@@ -1,0 +1,116 @@
+{
+  "folder": null,
+  "name": "Darkened Forest Form",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your apparition casts a feral shadow over your form, transforming you into another shape. You can polymorph into any form listed in <em>@Compendium[pf2e.spells-srd.gfPjmG6Fe6D3MFjl]{Pest Form}</em>. When you transform into a form granted by a spell, you gain all the effects of the form you chose from a version of the spell heightened to darkened forest form's rank. The apparition also helps you adapt more quickly to your new form; you gain a +1 status bonus to your attack rolls using the form's default attack modifier. Each time you Sustain this Spell, you can choose a different shape from those available via the associated spell.</p>\n<hr />\n<p><strong>Heightened (2nd)</strong> You can also transform into the forms listed in <em>@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form}</em>.</p>\n<p><strong>Heightened (5th)</strong> You can also transform into the forms listed in <em>@Compendium[pf2e.spells-srd.1K6AYGisvo9gqdhs]{Elemental Form}</em>, and the status bonus to your attack rolls when using the form's default attack modifier is +2.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_animist",
+        "polymorph"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "sustained up to 1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": false,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    }
+  },
+  "img": "systems/pf2e/icons/spells/animal-form.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.3",
+    "coreVersion": "12.327",
+    "createdTime": 1693016502901,
+    "modifiedTime": 1695253470143,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "nPJHG83cVsrKGcmY",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!nPJHG83cVsrKGcmY"
+}

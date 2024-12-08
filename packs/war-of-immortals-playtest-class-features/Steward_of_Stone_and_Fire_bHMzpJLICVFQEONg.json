@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Steward of Stone and Fire",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Stewards of stone and fire linger near volcanoes and the deep places near the heart of the earth, though particularly old rock formations, canyons, and other natural features of earth may also spawn or attract them. Stewards of stone and fire are quick to anger and slow to forget.</p>\n<h2>Apparition Skills</h2>\n<p>Mountain Lore, Volcano Lore</p>\n<h2>Apparition Spells</h2>\n<p><strong>Cantrip</strong> <em>@Compendium[pf2e.spells-srd.6DfLZBl8wKIV03Iq]{Ignition}</em>; <strong>1st</strong> <em>@Compendium[pf2e.spells-srd.HokKyQl5g655xx9U]{Interposing Earth}</em>; <strong>2nd</strong> <em>@Compendium[pf2e.spells-srd.v89KwyaBd6g5rWVS]{Exploding Earth}</em>; <strong>3rd</strong> <em>@Compendium[pf2e.spells-srd.sxQZ6yqTn0czJxVd]{Fireball}</em>; <strong>4th</strong> <em>@Compendium[pf2e.spells-srd.IarZrgCeaiUqOuRu]{Wall of Fire}</em>; <strong>5th</strong> <em>@Compendium[pf2e.spells-srd.kOa055FIrO9Smnya]{Wall of Stone}</em>; <strong>6th</strong> <em>@Compendium[pf2e.spells-srd.znv4ECL7ZtuiagtA]{Petrify}</em>; <strong>7th</strong> <em>@Compendium[pf2e.spells-srd.O7ZEqWjwdKyo2CUv]{Volcanic Eruption}</em>; <strong>8th</strong> <em>@Compendium[pf2e.spells-srd.x7SPrsRxGb2Vy2nu]{Earthquake}</em>; <strong>9th</strong> <em>@Compendium[pf2e.spells-srd.jrBa9deU2ULFWvSl]{Falling Stars}</em></p>\n<h2>Vessel Spell</h2>\n<p><em>@Compendium[pf2e-playtest-data.war-of-immortals-playtest-spells.CeQNry1G1EcxO1SK]{Earth's Bile}</em></p>\n<h2>Avatar</h2>\n<p><strong>Blood of Planets</strong> Speed 50 feet, burrow Speed 50 feet, ignore difficult terrain and greater difficult terrain;</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> avalanche of molten stone (versatile B), <strong>Damage</strong> 6d10+6 fire;</p>\n<p><strong>Ranged</strong> <span class=\"pf2-icon\">1</span> cleansing eruption (fire, range 120 feet), <strong>Damage</strong> 6d6+6 fire</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_animist"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/spells/abyssal-wrath.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693019816227,
+    "modifiedTime": 1693750754379,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "bHMzpJLICVFQEONg",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!bHMzpJLICVFQEONg"
+}

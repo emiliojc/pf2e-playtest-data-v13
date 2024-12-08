@@ -1,0 +1,93 @@
+{
+  "folder": null,
+  "name": "Stance: Channeler's Stance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>While in this stance, whenever you cast or Sustain an apparition spell or vessel spell that deals energy damage, you gain a status bonus to the spell's damage equal to the spell's rank.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "phase": "afterDerived",
+        "predicate": [
+          "item:spell-slot",
+          "damaging-effect",
+          {
+            "or": [
+              "spell:apparition",
+              "spell:vessel"
+            ]
+          }
+        ],
+        "selector": "spell-damage",
+        "type": "status",
+        "value": "@spell.level"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/spells/corrosive-body.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.3",
+    "coreVersion": "12.327",
+    "createdTime": 1693113793753,
+    "modifiedTime": 1695253692444,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "DzRmRWiHJo1M2C8f",
+  "sort": 100000,
+  "_key": "!items!DzRmRWiHJo1M2C8f"
+}

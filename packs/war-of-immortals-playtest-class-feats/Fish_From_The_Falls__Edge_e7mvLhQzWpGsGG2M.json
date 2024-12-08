@@ -1,0 +1,79 @@
+{
+  "folder": null,
+  "name": "Fish From The Falls' Edge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> A living creature within 30 feet would die.</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p>Seeing your ally fall, you let out a cry, sending your divine spark to them temporarily to keep them from tumbling down the River of Souls. You prevent the triggering creature from dying and restore [[/r 5d8[healing]]] Hit Points to them. The ally is invigorated by the touch of your divine power, gaining a +1 status bonus to their saving throws and AC for 1 round. Your divine spark remains with your ally, preventing you from gaining any of your ikons' immanence effects until the start of your next turn, when it returns to an ikon of your choice.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar",
+        "healing",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693005966839,
+    "modifiedTime": 1693858284117,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "e7mvLhQzWpGsGG2M",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!e7mvLhQzWpGsGG2M"
+}

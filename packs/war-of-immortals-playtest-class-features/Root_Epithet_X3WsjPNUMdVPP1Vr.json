@@ -1,0 +1,100 @@
+{
+  "folder": null,
+  "name": "Root Epithet",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When your divine spark bonded with your soul, it became dyed in your personality and qualities. As your deeds give shape to this nascent divinity, you come to bear an epithet—a word or phrase that reflects your story and that others come to call you by. Your epithets each affect one of your ikons, granting it additional capacities.</p>\n<p>At 3rd level, you gain a root epithet, which describes the core of your personality and affects the qualities of your body ikon. If you are already trained in the granted skill, you become trained in a different skill of your choice, as normal. Choose one epithet from the list below.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.ccnjUUPmLzVVUzh2]{Brave}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.AYjhWPhF3tCU82LB]{Cunning}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.HiAbSUTzSwDuKE5O]{Mournful}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.mNteQRazYFAu0tcN]{Radiant}</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.ccnjUUPmLzVVUzh2"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.AYjhWPhF3tCU82LB"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.HiAbSUTzSwDuKE5O"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.mNteQRazYFAu0tcN"
+          }
+        ],
+        "key": "ChoiceSet",
+        "flag": "rootEpithet",
+        "prompt": "Select a root epithet."
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.rootEpithet}"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693750757879,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "X3WsjPNUMdVPP1Vr",
+  "sort": 4200000,
+  "_key": "!items!X3WsjPNUMdVPP1Vr"
+}
