@@ -1,0 +1,221 @@
+{
+  "id": "pf2e-playtest-data",
+  "title": "PF2e Playtest Data",
+  "description": "Extra compendia supporting official playtesting in the PF2e system on Foundry VTT",
+  "version": "5.1.0",
+  "flags": {
+    "pf2e-playtest-data": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "apparition": {
+            "label": "Apparition",
+            "description": "Apparitions are spiritual entities who generally lack the power, cohesiveness, or attachments to enter or affect the physical world. Unlike a ghost or phantom, an apparition does not need to have ever been a living creature and could be the spiritual memory of a particularly meaningful location or event. Apparitions are reliant on animists to interact with other people and things, and they generally can't be targeted or affected by spells and abilities other than those of the animist they are attuned to. Animist feats and abilities that affect spirits affect apparitions only if they specifically say so. Animist abilities with the apparition trait involve one or more of your apparitions acting alongside you. You must be attuned to at least one apparition to use an apparition ability, and some abilities might state in their requirements more specifically which apparition you must be attuned to. Typically, you're assumed to always attune to your apparitions during your daily preparations, but in some rare circumstances or as a result of certain animist abilities, your apparitions might be dispersed or separated from you for a time."
+          },
+          "animist": "Animist",
+          "wandering": {
+            "label": "Wandering",
+            "description": "Wandering identifies animist feats closely attuned to particular types of apparitions. When you make your daily preparations, you can retrain any wandering feat you know for any other wandering feat available at the level you took the exchanged feat (including lower-level wandering feats, as usual). You must meet all the new feat's other prerequisites."
+          },
+          "exemplar": "Exemplar",
+          "ikon": {
+            "label": "Ikon",
+            "description": "An ikon is a special item that is so tied to you it can serve as a divine vessel for your exemplar might. Your divinity crystallizes into three ikons at first level. Each ikon has a passive immanence ability and an activated transcendence ability, and they can gain additional abilities through feats and other options."
+          },
+          "immanence": {
+            "label": "Immanence",
+            "description": "At any given time, your divine spark can rest within one of your ikons, empowering it with beyond-mortal abilities. As long as your divine spark is empowering one of your ikons, that ikon gains the divine trait and grants you the benefits described in its immanence entry. If your ikon has multiple immanence abilities, you gain all of them whenever the ikon is empowered. If an immanence ability occurs on a critical Strike with a weapon, it replaces any critical specialization effect that weapon might otherwise have."
+          },
+          "transcendence": {
+            "label": "Transcendence",
+            "description": "Transcendence channels the might of your divine spark through one of your ikons to surpass the mortal and enact a miraculous deed. To use an ikon's transcendence ability, your divine spark must be empowering that ikon. Immediately after using a transcendence ability, your divine spark is ejected from that ikon, coming to rest in another ikon of your choice. You can use only one transcendence ability each round."
+          },
+          "commander": "Commander",
+          "banner": {
+            "label": "Banner",
+            "description": "The banner trait indicates an ability that involves you waving or otherwise actively displaying your banner. To use an ability that has the banner trait, you must be holding your banner in one hand or wielding a weapon it is attached to."
+          },
+          "tactic": {
+            "label": "Tactic",
+            "description": "<Tactics are special abilities that involve you signaling your allies to perform predetermined maneuvers. To use a tactic ability, you must have one or more willing allies you have instructed beforehand during your daily preparations. Your squadmates must also be able to perceive your signal, either when you speak or shout it (in which case the tactic action gains the auditory trait), or by physically signaling them, typically by waving your banner (in which case it gains the visual trait). While you can use multiple tactic actions a round, a character cannot respond to more than one tactic per round, regardless of source."
+          },
+          "guardian": "Guardian"
+        },
+        "spellTraits": {
+          "animist": "Animist"
+        }
+      }
+    }
+  },
+  "packs": [
+    {
+      "label": "Classes",
+      "name": "war-of-immortals-playtest-classes",
+      "path": "packs/war-of-immortals-playtest-classes",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Feats",
+      "name": "war-of-immortals-playtest-class-feats",
+      "path": "packs/war-of-immortals-playtest-class-feats",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Class Features",
+      "name": "war-of-immortals-playtest-class-features",
+      "path": "packs/war-of-immortals-playtest-class-features",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Actions",
+      "name": "war-of-immortals-playtest-actions",
+      "path": "packs/war-of-immortals-playtest-actions",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Effects",
+      "name": "war-of-immortals-playtest-effects",
+      "path": "packs/war-of-immortals-playtest-effects",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Spells",
+      "name": "war-of-immortals-playtest-spells",
+      "path": "packs/war-of-immortals-playtest-spells",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Journals",
+      "name": "war-of-immortals-playtest-journals",
+      "path": "packs/war-of-immortals-playtest-journals",
+      "system": "pf2e",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Classes",
+      "name": "battlecry-playtest-classes",
+      "path": "packs/battlecry-playtest-classes",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Feats",
+      "name": "battlecry-playtest-class-feats",
+      "path": "packs/battlecry-playtest-class-feats",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Class Features",
+      "name": "battlecry-playtest-class-features",
+      "path": "packs/battlecry-playtest-class-features",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Actions",
+      "name": "battlecry-playtest-actions",
+      "path": "packs/battlecry-playtest-actions",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Effects",
+      "name": "battlecry-playtest-effects",
+      "path": "packs/battlecry-playtest-effects",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Journals",
+      "name": "battlecry-playtest-journals",
+      "path": "packs/battlecry-playtest-journals",
+      "system": "pf2e",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    }],
+  "esmodules": [
+    "scripts/popup.mjs"
+  ],
+  "packFolders": [
+    {
+      "name": "War of Immortals Playtest",
+      "sorting": "m",
+      "packs": [
+        "war-of-immortals-playtest-classes",
+        "war-of-immortals-playtest-class-feats",
+        "war-of-immortals-playtest-class-features",
+        "war-of-immortals-playtest-actions",
+        "war-of-immortals-playtest-effects",
+        "war-of-immortals-playtest-spells",
+        "war-of-immortals-playtest-journals"
+      ]
+    },
+
+    {
+      "name": "Battlecry Playtest",
+      "sorting": "m",
+      "packs": [
+        "battlecry-playtest-classes",
+        "battlecry-playtest-class-feats",
+        "battlecry-playtest-class-features",
+        "battlecry-playtest-actions",
+        "battlecry-playtest-effects",
+        "battlecry-playtest-journals"
+      ]
+    }],
+  "manifest": "https://gitlab.com/TMun/pf2e-playtest-data/-/raw/master/module.json?inline=false",
+  "download": "https://gitlab.com/TMun/pf2e-playtest-data/-/archive/master/pf2e-playtest-data-master.zip",
+  "url": "https://gitlab.com/TMun/pf2e-playtest-data/",
+  "authors": [{
+    "name": "Tim Munsie [.TMun]",
+    "flags": {}
+  }, {
+    "name": "Ian Blackstone [tikael]"  
+  }],
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "compatibility": {
+        "minimum": "6.0",
+        "verified": "6.0"
+      }
+    }]
+  },
+  "compatibility": {
+    "maximum": "12",
+    "minimum": "12.327",
+    "verified": "12.327"
+  }
+}
