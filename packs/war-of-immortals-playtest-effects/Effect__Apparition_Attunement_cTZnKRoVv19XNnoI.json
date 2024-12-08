@@ -1,0 +1,109 @@
+{
+  "folder": null,
+  "name": "Effect: Apparition Attunement",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "primaryApparition",
+        "choices": [
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.YyDqj4xmqGNmoN8G"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.cNTI2tuFuFvGrpN2"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.yWIHQWhvvl4y7kNo"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.Lb1pfIgYX7plpwgX"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.bHMzpJLICVFQEONg"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.jGsDCNMB6zkZV4xX"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.CkgQ29vZ8VT7tibE"
+          }
+        ],
+        "prompt": "Select a primary apparition."
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.primaryApparition}"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/spells/deja-vu.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.3",
+    "coreVersion": "12.327",
+    "createdTime": 1693116894835,
+    "modifiedTime": 1695254004049,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "cTZnKRoVv19XNnoI",
+  "sort": 0,
+  "_key": "!items!cTZnKRoVv19XNnoI"
+}

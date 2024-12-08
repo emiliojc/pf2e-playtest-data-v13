@@ -1,0 +1,90 @@
+{
+  "folder": null,
+  "name": "Teacher of Heroes",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Those who make great names for themselves as heroes are called upon to train those who follow them, and such is your destiny—to be remembered through your progeny.</p>\n<p><strong>Immanence</strong> The aura granted by your worn ikon increases to 30 feet. Whenever you fail or deal no damage with a Strike against an enemy within your worn ikon's aura, you can attempt a Recall Knowledge check against that target and instantly transmit any knowledge you gain as a result to every ally within the aura. The first piece of knowledge you gain when Recalling Knowledge in this way is always the enemy's immunities (if any) or greatest resistance (if they do not have any immunities). If the target does not have any immunities or resistances, you instead learn their greatest weakness. If the target does not have any immunities, resistances, or weaknesses, you learn what their lowest saving throw is.</p>\n<p><strong>Transcend</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.fzIajY2GXXE58jPT]{Complete the Hero's Journey}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.fzIajY2GXXE58jPT"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.pf2e.exemplar.wornIkon.auraRadius",
+        "value": 30,
+        "predicate": [
+          "immanence:worn"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/sundries/books/book-open-brown.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693750753605,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "UhcTDbAkikVqjDNe",
+  "sort": 1500000,
+  "_key": "!items!UhcTDbAkikVqjDNe"
+}

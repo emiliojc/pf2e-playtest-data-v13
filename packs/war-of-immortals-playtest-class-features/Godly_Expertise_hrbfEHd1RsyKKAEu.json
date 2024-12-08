@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Godly Expertise",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ability to wield your divine power effectively increases. Your proficiency rank for your exemplar class DC increases to expert. If you have domain spells, your proficiency rank for spell attacks and spell DC increases to expert.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.exemplar.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.traditions.divine.rank",
+        "value": 2
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/magic/symbols/runes-star-blue.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693750664959,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "hrbfEHd1RsyKKAEu",
+  "sort": 4600000,
+  "_key": "!items!hrbfEHd1RsyKKAEu"
+}

@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Imposter in Hidden Places",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Impostors in hidden places whisper in quiet corners where mortal voices rarely echo, hoarding secrets and pondering unknowable truths. They often bring misfortune to those who disturb them, though an animist who can earn their trust will find that they make effective allies. Impostors in hidden places are shy and occasionally quite spiteful.</p>\n<h2>Apparition Skills</h2>\n<p>Fortune-Telling Lore, Underworld Lore</p>\n<h2>Apparition Spells</h2>\n<p><strong>Cantrip</strong> <em>@Compendium[pf2e.spells-srd.pwzdSlJgYqN7bs2w]{Telekinetic Hand}</em>; <strong>1st</strong> <em>@Compendium[pf2e.spells-srd.6ZIKB0151LUR19Rw]{Ill Omen}</em>; <strong>2nd</strong> <em>@Compendium[pf2e.spells-srd.XXqE1eY3w3z6xJCB]{Invisibility}</em>; <strong>3rd</strong> <em>@Compendium[pf2e.spells-srd.EoKBlgf6Smt8opaU]{Nondetection}</em>; <strong>4th</strong> <em>@UUID[Compendium.pf2e.spells-srd.GzdgM0m7wXKuFSho]{Rope Trick}</em>; <strong>5th</strong> <em>@Compendium[pf2e.spells-srd.U58aQWJ47VrI36yP]{Hallucination}</em>; <strong>6th</strong> <em>@Compendium[pf2e.spells-srd.WPXzPl7YbMEIGWfi]{Mislead}</em>; <strong>7th</strong> <em>@Compendium[pf2e.spells-srd.vPWMEyVTreMOoFnm]{Magnificent Mansion}</em>; <strong>8th</strong> <em>@Compendium[pf2e.spells-srd.wfleiawxsfhpRRwf]{Disappearance}</em>; <strong>9th</strong> <em>@UUID[Compendium.pf2e.spells-srd.qDjeG6dxT4aEEC6J]{Weird}</em></p>\n<h2>Vessel Spell</h2>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-spells.auDBkDxxgB4VIjJb]{Discomfiting Whispers}</p>\n<h2>Avatar</h2>\n<p><strong>Whisper Hiding in Shadows</strong> Speed 50 feet, fly Speed 50 feet;</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> touch of lost futures (versatile cold), <strong>Damage</strong> 6d10+6 void;</p>\n<p><strong>Ranged</strong> <span class=\"pf2-icon\">1</span> whisper of despair (range 120 feet), <strong>Damage</strong> 6d6+6 void</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_animist"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/spells/adapt-self.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693019816227,
+    "modifiedTime": 1693750662934,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "cNTI2tuFuFvGrpN2",
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!cNTI2tuFuFvGrpN2"
+}

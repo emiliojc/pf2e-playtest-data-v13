@@ -1,0 +1,71 @@
+{
+  "folder": null,
+  "name": "Break the Sun's Legs",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You make a slashing motion over the brightest source of light, whether it's a torch or the sun in the sky. A gash appears over the light source, visible to all, and devours the light. The entire area within a @Template[type:burst|distance:120] around you takes the effects of a 9th-rank <em>@Compendium[pf2e.spells-srd.4GE2ZdODgIQtg51c]{Darkness}</em> spell for 1 minute. The stolen light is channeled to your eyes, and you gain greater darkvision for the duration of the effect.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cold",
+        "darkness"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693011302542,
+    "modifiedTime": 1693160214474,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "aU1JB3SR39tc21ws",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!aU1JB3SR39tc21ws"
+}

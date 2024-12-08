@@ -1,0 +1,77 @@
+{
+  "name": "Forest's Heart",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are attuned to an apparition that grants Forest Lore or Herbalism Lore as one of its apparition skills.</p>\n<hr />\n<p>You adopt a stance that allows your spiritual energy to inhabit and control roots from the ground you stand on to act as brutal extensions of your will. You can make unarmed attacks with roots, vines, and other plant growth that share your space. These deal @Damage[4d8[bludgeoning]] damage; are in the brawling group; and have the finesse, grapple, and reach 30 feet traits. Attacks made with these unarmed attacks do not gain additional damage from striking runes, but they can benefit from the item bonus to attack rolls and property runes of handwraps of mighty blows you are wearing.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "hb_animist",
+        "hb_apparition",
+        "hb_wandering",
+        "stance"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "_id": "jU41ekGHxFN5cqYM",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693006220087,
+    "modifiedTime": 1693160141733,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!jU41ekGHxFN5cqYM"
+}

@@ -1,0 +1,80 @@
+{
+  "img": "systems/pf2e/icons/features/classes/expert-spellcaster.webp",
+  "name": "Expert Spellcaster (Animist)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The spirits' magic flows freely through you. Your proficiency ranks for your spell attack modifier and spell DC increase to expert.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.traditions.divine.rank",
+        "value": 2
+      }
+    ],
+    "slug": "expert-spellcaster",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693117605286,
+    "modifiedTime": 1693750667318,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "1LVUHC2Usc6JjF9h",
+  "sort": 3300000,
+  "_key": "!items!1LVUHC2Usc6JjF9h"
+}

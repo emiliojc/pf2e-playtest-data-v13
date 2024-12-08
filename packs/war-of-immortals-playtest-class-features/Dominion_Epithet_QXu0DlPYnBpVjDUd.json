@@ -1,0 +1,184 @@
+{
+  "folder": null,
+  "name": "Dominion Epithet",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your divinity has grown in power along with your deeds, allowing you to begin claiming dominion over aspects usually reserved for the gods. Choose one of the following epithets, which affect your weapon ikon.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.KJGuufhSPwn6EWiM]{Born of the Bones of the Earth}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.VDWsFE7Qb52H2IXJ]{Peerless Under Heaven}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.BB1lsBxwpuvtDBBE]{Restless as the Tide}</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.tG5S0JyfNHT8UpSX]{Whose Cry is Thunder}</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.KJGuufhSPwn6EWiM"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.VDWsFE7Qb52H2IXJ"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.BB1lsBxwpuvtDBBE"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.tG5S0JyfNHT8UpSX"
+          }
+        ],
+        "key": "ChoiceSet",
+        "flag": "dominionEpithet",
+        "prompt": "Select a dominion epithet."
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.dominionEpithet}"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "spirit-striking-damage",
+        "label": "Spirit Striking Damage",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid",
+            "predicate": [
+              "feature:restless-as-the-tide",
+              "feat:dominion-signifier"
+            ]
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning",
+            "predicate": [
+              {
+                "not": "feature:whose-cry-is-thunder"
+              }
+            ]
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity",
+            "predicate": [
+              "feature:whose-cry-is-thunder"
+            ]
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire",
+            "predicate": [
+              "feature:born-of-the-bones-of-the-earth",
+              "feat:dominion-signifier"
+            ]
+          },
+          {
+            "label": "PF2E.TraitNegative",
+            "value": "negative",
+            "predicate": [
+              "feature:peerless-under-heaven",
+              "feat:dominion-signifier"
+            ]
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing",
+            "predicate": [
+              "feature:peerless-under-heaven"
+            ]
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing",
+            "predicate": [
+              "feature:peerless-under-heaven"
+            ]
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic",
+            "predicate": [
+              "feature:whose-cry-is-thunder",
+              "feat:dominion-signifier"
+            ]
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "strike-damage",
+        "slug": "spirit-striking",
+        "damageType": "{item|flags.pf2e.rulesSelections.spiritStrikingDamage}",
+        "mode": "add",
+        "value": 0
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/magic/holy/angel-wings-gray.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693750667716,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "QXu0DlPYnBpVjDUd",
+  "sort": 4400000,
+  "_key": "!items!QXu0DlPYnBpVjDUd"
+}

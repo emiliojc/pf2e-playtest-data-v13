@@ -1,0 +1,68 @@
+{
+  "folder": null,
+  "name": "Bear Allies' Burdens",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You move with a speed belying your strength, carrying your allies as easily as straw dolls. You Stride; at any point you are adjacent to a willing ally, you can pick them up, and you can deposit them into an adjacent square at any other point during your movement. If an ally was benefiting from your immanence aura when you began this movement, they do not count against your Bulk limits while being carried during the move.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992093518,
+    "modifiedTime": 1693160215502,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "Hxe9TkKSichNnUDi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!Hxe9TkKSichNnUDi"
+}

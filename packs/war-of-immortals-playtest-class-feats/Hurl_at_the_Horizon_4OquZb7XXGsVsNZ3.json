@@ -1,0 +1,99 @@
+{
+  "folder": null,
+  "name": "Hurl at the Horizon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> Your weapon ikon is a thrown or melee weapon.</p>\n<hr />\n<p>Your weapon flies from your hand as if propelled under its own power.</p>\n<p><strong>Immanence</strong> Your weapon gains the thrown 15 feet trait, or increases its thrown distance by 10 feet if it already has the thrown trait.</p>"
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:id:{actor|flags.pf2e.exemplar.weaponIkon.id}",
+          "item:trait:thrown"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "range-increment",
+        "value": 10
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{actor|flags.pf2e.exemplar.weaponIkon.id}"
+        ],
+        "property": "weapon-traits",
+        "value": "thrown-15",
+        "predicate": [
+          "immanence:weapon",
+          {
+            "not": "item:trait:thrown"
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693005966839,
+    "modifiedTime": 1693858312876,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "4OquZb7XXGsVsNZ3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!4OquZb7XXGsVsNZ3"
+}

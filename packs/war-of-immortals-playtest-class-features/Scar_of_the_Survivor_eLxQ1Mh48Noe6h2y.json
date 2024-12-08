@@ -1,0 +1,98 @@
+{
+  "folder": null,
+  "name": "Scar of the Survivor",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A scar on your body commemorates a time someone tried to end your story and failed—a testament to your resilience and fortitude.</p>\n<p><strong>Immanence</strong> Divine energy spreads outward from your scar, reinforcing your flesh. You gain the benefits of the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} feat and a +1 status bonus to Fortitude saving throws.</p>\n<p><strong>Transcend</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.hw6vY8bDDoNhaD6u]{No Scar but This}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.hw6vY8bDDoNhaD6u"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.attributes.dying.max",
+        "value": 5,
+        "predicate": [
+          "immanence:body"
+        ],
+        "priority": 70
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fortitude",
+        "value": 1,
+        "predicate": [
+          "immanence:body"
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_ikon"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/magic/unholy/hand-fire-skeleton-pink.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693859062276,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "eLxQ1Mh48Noe6h2y",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!eLxQ1Mh48Noe6h2y"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Fly on Shadowed Wings",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p>You align the energy within your physical form to that of one of your insubstantial spiritual companions, bonding with their essence to become lighter than air. Choose one of your attuned apparitions; for 10 minutes, you gain a fly Speed equal to your land Speed, but your chosen apparition is dispersed for the duration, automatically re-attuning to you 10 minutes later.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-effects.Item.MdP6nxxic0oeCvBE]{Effect: Fly on Shadowed Wings}</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "_id": "1oKeSf0FHdDnSeTC",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693003694078,
+    "modifiedTime": 1693003899878,
+    "lastModifiedBy": "Wdx2rirHxbejveh1",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!1oKeSf0FHdDnSeTC"
+}

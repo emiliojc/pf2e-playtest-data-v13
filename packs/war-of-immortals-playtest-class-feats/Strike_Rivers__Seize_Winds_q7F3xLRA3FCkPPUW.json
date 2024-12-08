@@ -1,0 +1,77 @@
+{
+  "folder": null,
+  "name": "Strike Rivers, Seize Winds",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per hour, see text</p>\n<hr />\n<p>Through sheer physical force, you can wrestle a river, snare the winds, punch a hole to the molten center of the earth, or create other weather disturbances via nothing but your own strength. You can create each of the following spell effects, but you can't create effects more than once per hour and you can't perform a given effect more than once per day: <strong>4th rank</strong> <em>@Compendium[pf2e.spells-srd.Y3G6Y6EDgCY0s3fq]{Hydraulic Torrent}</em>, <strong>5th rank</strong> <em>@Compendium[pf2e.spells-srd.zfn5RqAdF63neqpP]{Control Water}</em>, <strong>6th rank</strong> <em>@Compendium[pf2e.spells-srd.xxWhyl81w3ckslAU]{Howling Blizzard}</em>, <strong>7th rank</strong> <em>@Compendium[pf2e.spells-srd.O7ZEqWjwdKyo2CUv]{Volcanic Eruption}</em>, <strong>8th rank</strong> <em>@Compendium[pf2e.spells-srd.wi405lBjPcbF1DeR]{Punishing Winds}</em>.</p>\n<p>Creating the effects requires the same type and number of actions as Casting the Spell, and they use the higher of your class DC or spell DC when appropriate. Because you are creating these effects with your godly might rather than Casting a Spell, they can't be dispelled or countered.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693005966839,
+    "modifiedTime": 1693856803438,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "q7F3xLRA3FCkPPUW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!q7F3xLRA3FCkPPUW"
+}

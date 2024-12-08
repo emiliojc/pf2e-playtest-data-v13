@@ -1,0 +1,157 @@
+{
+  "folder": null,
+  "name": "Earth's Bile",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your apparition is a conduit for the earth's molten blood, unleashing a devastating burst of lava at your command. When you Cast this Spell, and the first time you Sustain it each round thereafter, choose an area within range. Each creature in the area takes 1d4 fire damage, 1d4 bludgeoning damage, and 1 persistent fire damage (the persistent fire damage is negated on a successful save).</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The fire and bludgeoning damage each increase by 1d4 and the persistent fire damage increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "earth",
+        "fire",
+        "hb_animist"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "value": 10,
+      "type": "burst"
+    },
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "sustained up to 1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "value": {
+        "mq3IAOMExxhX3aEx": {
+          "value": "1d4",
+          "type": {
+            "value": "fire",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        },
+        "4dVZr1pF4u895ZFY": {
+          "value": "1d4",
+          "type": {
+            "value": "bludgeoning",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        },
+        "TASWrFaQS0mOJQfS": {
+          "value": "1",
+          "type": {
+            "value": "fire",
+            "categories": [],
+            "subtype": "persistent"
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": false,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "reflex",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "damage": {
+        "mq3IAOMExxhX3aEx": "1d4",
+        "4dVZr1pF4u895ZFY": "1d4",
+        "TASWrFaQS0mOJQfS": "1"
+      },
+      "type": "interval",
+      "interval": 2
+    }
+  },
+  "img": "systems/pf2e/icons/spells/cleansing-flames.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.3",
+    "coreVersion": "12.327",
+    "createdTime": 1693016502901,
+    "modifiedTime": 1695253470143,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "CeQNry1G1EcxO1SK",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!CeQNry1G1EcxO1SK"
+}

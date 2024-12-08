@@ -1,0 +1,125 @@
+{
+  "folder": null,
+  "name": "Additional Ikon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your story has grown rich enough that three ikons can't contain its full complexity. You gain a fourth ikon, which can be of any type.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.gOkL1e5uexDEvYog"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.96dNW6LMhBmHg3d3"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.eLxQ1Mh48Noe6h2y"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.KkhRyA1kqZrgi6Vl"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.gYUXQOsRKXfWWtcO"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.7WtSlfDvXNqvj6Nr"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.etMBP62Mpz14D7tX"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.XYeKCSxOaolQ8H77"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.2aoEgS4PjmNuIF3u"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.iDiOqew0eJMEldW5"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.YfCx8wDPvdKtcNCH"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.UKMKcuU7zCa1JQgx"
+          },
+          {
+            "value": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-features.Item.stbQ88Py6JzhskLx"
+          }
+        ],
+        "key": "ChoiceSet",
+        "flag": "ikon",
+        "prompt": "Select an ikon."
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.ikon}"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693005966839,
+    "modifiedTime": 1693858296915,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "VFRQfEuDMny7Tqy3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!VFRQfEuDMny7Tqy3"
+}

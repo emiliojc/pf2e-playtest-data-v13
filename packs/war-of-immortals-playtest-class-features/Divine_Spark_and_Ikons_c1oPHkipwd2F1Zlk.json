@@ -1,0 +1,130 @@
+{
+  "folder": null,
+  "name": "Divine Spark and Ikons",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Within your soul is a tiny spark of divine power that belongs not to a deity but something all your own. You can manifest this divine power through special items known as ikons. Ikons are items intrinsically linked to you—sacred vessels crystallized from your divinity that are capable of legendary feats in your hands. There are three types of ikons: body ikons are a mark on your flesh that shows you as more than mortal, worn ikons are sacred clothing or other raiment, and weapon ikons let you carve your story onto the world. Choose three ikons, one of each type. Your body takes on the qualities of your chosen body ikon, and you gain non-magical, level-0 items of your choice that satisfy the requirements for your chosen worn ikon and weapon ikon. Providence ensures you come across these items; you might be traveling along a path to find a spear in a tree that only you can dislodge, or you might awaken holding a gleaming sash you saw in your dreams.</p>\n<p>By focusing your divine spark into one of your ikons, you empower that ikon to accomplish deeds beyond what it could in mortal hands. As long as your divine spark resides in an ikon, you gain that ikon's immanence effect. You can call your spark forth and place it into an ikon by using the @Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.oRp8IV0Jqjtzj82l]{Shift Immanence} action.</p>\n<p>While your spark dwells within an ikon, you are also able to channel your divinity through the ikon in a powerful transcendence ability—though the force of this act will temporarily cast your divine spark out of the ikon.</p>\n<p>@UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.DccQze1mz8yP7LgJ]{Spark Transcendence}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.oRp8IV0Jqjtzj82l"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.DccQze1mz8yP7LgJ"
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "or": [
+                "item:level:0"
+              ]
+            },
+            {
+              "or": [
+                "item:category:martial",
+                "item:category:simple"
+              ]
+            },
+            {
+              "not": "item:trait:consumable"
+            }
+          ],
+          "itemType": "weapon"
+        },
+        "flag": "weaponIkon",
+        "key": "ChoiceSet",
+        "prompt": "Select your weapon ikon."
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "flag": "weaponIkon",
+        "uuid": "{item|flags.pf2e.rulesSelections.weaponIkon}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.exemplar.weaponIkon.id",
+        "value": "{item|flags.pf2e.itemGrants.weaponIkon.id}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.exemplar.wornIkon.auraRadius",
+        "value": 15,
+        "priority": 10
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693750668528,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "c1oPHkipwd2F1Zlk",
+  "sort": 4500000,
+  "_key": "!items!c1oPHkipwd2F1Zlk"
+}

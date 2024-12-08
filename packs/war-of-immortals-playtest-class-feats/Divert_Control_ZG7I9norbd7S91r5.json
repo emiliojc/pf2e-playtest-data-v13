@@ -1,0 +1,75 @@
+{
+  "name": "Divert Control",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> Your turn begins while you are under the effects of <em>@UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Charm}</em> or a similar spell, or an effect that would give you the @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled} condition.</p>\n<hr />\n<p>Your attuned apparition takes control of your body and prevents you from acting against your will or better judgment. You ignore the effects of the charm spell, the controlled condition, and other spells that attempt to dictate your actions until the end of your turn. This turn still counts against the spell or effect's duration.</p>\n<p>While ignoring an effect in this manner, you can take only a single action or activity, chosen by the attuned apparition. This could be to use a feat the apparition qualifies you for, to cast one of the apparition's spells, or to take another action in keeping with the apparition's nature as determined by the GM.</p>\n<p>This action is never one taken against your best interests.</p>\n<hr />\n<p><strong>Special</strong> If you have the Apparition's Possession ability, your apparition can instead take up to 2 actions and can use any action normally allowed by Apparition's Possession.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_animist",
+        "hb_apparition",
+        "mental"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "_id": "ZG7I9norbd7S91r5",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692990929125,
+    "modifiedTime": 1693159320393,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!ZG7I9norbd7S91r5"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Channeler's Stance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You enter a stance that allows the power of other levels of existence to flow through you more aggressively. While in this stance, whenever you cast or Sustain an apparition spell or vessel spell that deals energy damage, you gain a status bonus to the spell's damage equal to the spell's rank. Whenever you Cast a Spell that has the vitality or void traits that restores Hit Points, targets gain a status bonus to the amount of healing received equal to the spell's rank.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_animist",
+        "stance"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-effects.Item.DzRmRWiHJo1M2C8f",
+      "name": "Stance: Channeler's Stance"
+    }
+  },
+  "_id": "sGKursdBYDehFYuJ",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "sajymHLRBubPISL6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.1",
+    "coreVersion": "12.327",
+    "createdTime": 1692983716709,
+    "modifiedTime": 1693536254298,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!sGKursdBYDehFYuJ"
+}

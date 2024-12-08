@@ -1,0 +1,153 @@
+{
+  "name": "Sage",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Sages are particularly sensitive to the presence and influence of spirits and undead. They can easily detect lingering spirits and help create resolutions between spiritual entities and whatever barriers are preventing them from resting peacefully. Some sages may even serve as go-betweens for spirits that intentionally linger to watch over a site or community, allowing them to speak to the people they knew in life. Sages are often community leaders or educators and frequently associate with apparitions of fixed sites of power, like custodians of groves and gardens or other apparitions of knowledge.</p>\n<p><strong>Initial Boon</strong>: At 1st level, your ability to sink into your apparition is especially potent. You gain the @UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-feats.Item.fSKnrAHbhFgB8112]{Apparition Sense} feat and the @UUID[Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.q1O52OO0jUwzQMxq]{Apparition's Possession} action.</p>\n<p><strong>Intermediate Boon</strong>: At 9th level, your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.</p>\n<p><strong>Greater Boon</strong>: At 13th level, you gain spirit resistance equal to half your level and a +2 circumstance bonus to saving throws against spirit effects. You are immune to any effect that separates your soul from your body against your will, such as the seize soul spell.</p>\n<p><strong>Ultimate Boon</strong>: At 17th level, whenever a haunt, spirit, undead, or incorporeal creature fails a saving throw against your spells, you gain a +2 circumstance bonus to your AC and saving throws against all of that entity's attacks and abilities for the next 24 hours. This bonus applies only to the entity that failed its save, not others of the same type. In addition, you can select up to two apparitions as your primary apparition during your daily preparations.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.q1O52OO0jUwzQMxq",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-class-feats.Item.fSKnrAHbhFgB8112"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.unarmored.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.light.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.martial.medium.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "spirit",
+        "value": "floor(@actor.level/2)",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 2,
+        "predicate": [
+          "spirit",
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ],
+        "type": "circumstance",
+        "label": "Greater Boon"
+      }
+    ],
+    "slug": "sage",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "_id": "vvog6aXtEzkTNaBC",
+  "img": "icons/creatures/magical/humanoid-silhouette-dashing-blue.webp",
+  "folder": null,
+  "sort": 6000000,
+  "ownership": {
+    "default": 0,
+    "sajymHLRBubPISL6": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692981220749,
+    "modifiedTime": 1693750757489,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!vvog6aXtEzkTNaBC"
+}

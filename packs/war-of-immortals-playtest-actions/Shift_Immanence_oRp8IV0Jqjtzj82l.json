@@ -1,0 +1,97 @@
+{
+  "folder": null,
+  "name": "Shift Immanence",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p>You shift the focus of your divinity, filling one of your ikons with your divine spark. That ikon softly glows with radiant light, emits subtle chimes as it moves, or is otherwise obviously empowered in a way that matches your growing divinity, granting the ikon the divine trait and granting you that ikon's immanence effects for as long as your divine spark is empowering it. Your spark is indivisible, so it can empower only one ikon at a time. You can also Shift Immanence to return your spark to the depths of your soul, leaving none of your ikons empowered.</p>\n<hr />\n<p><strong>Special</strong> In addition to the above usage, you can also Shift Immanence as a free action triggered when you roll initiative.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "immanence",
+        "suboptions": [
+          {
+            "label": "Body",
+            "value": "body"
+          },
+          {
+            "label": "Weapon",
+            "value": "weapon"
+          },
+          {
+            "label": "Worn",
+            "value": "worn"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true,
+        "label": "Active Immanence"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "hb_exemplar"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "_id": "oRp8IV0Jqjtzj82l",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992093518,
+    "modifiedTime": 1693160246422,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!oRp8IV0Jqjtzj82l"
+}

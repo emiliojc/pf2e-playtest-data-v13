@@ -1,0 +1,137 @@
+{
+  "name": "Trickster's Mirrors",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are surrounded by up to 3 mirrors that reflect twisted and distorted images of you, making it hard to tell where you actually are within your space and potentially causing those who attack you to hit one of the mirrors instead. You start with one mirror and gain an additional mirror each time you Sustain this spell, up to a maximum of three mirrors. Any attack that would hit you has a random chance of hitting one of your mirrors instead of you. With one mirror, the chances are 1 in 2 (1–3 on [[/r 1d6]]). With two mirrors, there is a 1 in 3 chance of hitting you (1–2 on 1d6). With three mirrors, there is a 1 in 4 chance of hitting you (1 on [[/r 1d4]]).</p>\n<p>Once a mirror is hit, it is destroyed. If an attack roll fails to hit your AC but doesn't critically fail, it destroys a mirror. If the attacker was within 5 feet, it must succeed at a basic Will save or take 1d4 mental damage as it believes itself cut by a shower of glass shards from the breaking mirror. A damaging effect that affects all targets within your space (such as a caustic blast) destroys all of the mirrors.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The mental damage dealt by a broken mirror increases by [[/r 1d4]].</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_animist",
+        "illusion",
+        "mental",
+        "visual"
+      ],
+      "rarity": "common",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "sustained up to 1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "value": {
+        "TG2p6bNvOYOYDTAI": {
+          "value": "1d4",
+          "type": {
+            "value": "mental",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Paizo Blog"
+    },
+    "schema": {
+      "version": 0.864,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "focus"
+    },
+    "traditions": {
+      "value": []
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": false,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "will",
+      "basic": "basic"
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "TG2p6bNvOYOYDTAI": "1d4"
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/spells/mirror-image.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.5.3",
+    "coreVersion": "12.327",
+    "createdTime": 1695252669470,
+    "modifiedTime": 1695253470143,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "nIxd3ZZPnSD096t0",
+  "sort": 100000,
+  "_key": "!items!nIxd3ZZPnSD096t0"
+}

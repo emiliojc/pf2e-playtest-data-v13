@@ -1,0 +1,72 @@
+{
+  "name": "Targeting Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your attack creates an opening in your target's defenses for your allies to capitalize on. Strike an opponent with a weapon you are wielding or an unarmed attack you have. If the Strike is successful, the next ally to target that enemy with a Strike or spell that requires an attack roll gains a +2 circumstance bonus to the attack roll and deals an amount of additional precision damage equal to your Intelligence modifier.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.931,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.327",
+        "system": "6.0.4"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "commander",
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "FZrYY0gI6V2rqfPC",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QKoqdX3a6kNG4m76": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.0.4",
+    "coreVersion": "12.327",
+    "createdTime": 1713558574292,
+    "modifiedTime": 1719014536866,
+    "lastModifiedBy": "KF0ALP6EgXomLnUS",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!FZrYY0gI6V2rqfPC"
+}

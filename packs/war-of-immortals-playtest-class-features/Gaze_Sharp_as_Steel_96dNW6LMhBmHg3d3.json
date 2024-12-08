@@ -1,0 +1,98 @@
+{
+  "folder": null,
+  "name": "Gaze Sharp as Steel",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eyes glint with an almost-tangible sharpness, letting you spot the tiniest dove on the horizon or the swiftest arrow in flight.</p>\n<p><strong>Immanence</strong> Your vision sharpens and allows you to sense an enemy's attack almost as soon as it begins, granting you a +1 status bonus to Perception checks and a +2 status bonus to your AC against ranged attacks.</p>\n<p><strong>Transcend</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.lHJNsq5YpnJLHrOP]{A Moment Unending}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.lHJNsq5YpnJLHrOP"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "value": 1,
+        "type": "status",
+        "predicate": [
+          "immanence:body"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 2,
+        "type": "status",
+        "predicate": [
+          "immanence:body",
+          "ranged"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_ikon"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693859066645,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "96dNW6LMhBmHg3d3",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!96dNW6LMhBmHg3d3"
+}

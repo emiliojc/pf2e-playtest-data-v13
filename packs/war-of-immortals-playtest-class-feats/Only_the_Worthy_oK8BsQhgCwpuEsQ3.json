@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Only the Worthy",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can designate your ikons as movable by only your own hand, leaving them fixed in place as surely as if they were lodged in stone. Whenever you Release either your worn or weapon ikon, you can spend an action to command it to remain motionless. While motionless, the ikon can be moved only if 8,000 pounds of pressure are applied to it or if a creature uses Athletics to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} the ikon with a DC equal to your class DC. You can Release your ikon over an adjacent @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} enemy to hold them down with the ikon's motionlessness— while so Released, you can't use the ikon, but the enemy must succeed at the Athletics check to Stand or to move. The ikon automatically flies back to your hand when the effect is broken or if you spend an Interact action to hold out a hand and draw it back.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_exemplar"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693005966839,
+    "modifiedTime": 1693858309093,
+    "lastModifiedBy": "qA45GVv5hySaf9b5",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "oK8BsQhgCwpuEsQ3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!oK8BsQhgCwpuEsQ3"
+}

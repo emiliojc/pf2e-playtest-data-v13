@@ -1,0 +1,99 @@
+{
+  "name": "Intermediary's Defenses",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your status as an intermediary across planar boundaries grants you certain diplomatic privileges you can exert in the face of spiritual ailments. You gain void resistance equal to half your level, and you gain a +1 status bonus to saving throws against the effects of haunts and the abilities of spirits and incorporeal undead.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "void",
+        "value": "max(1,floor(@actor.level/2))"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throws",
+        "value": 1,
+        "type": "status",
+        "predicate": [
+          {
+            "or": [
+              "origin:trait:haunt",
+              "origin:trait:spirit",
+              {
+                "and": [
+                  "origin:trait:undead",
+                  "origin:trait:incorporeal"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_animist"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "_id": "VgNooQ8hP4GK5RKI",
+  "img": "systems/pf2e/icons/features/feats/feats.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Wdx2rirHxbejveh1": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.3.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692988875859,
+    "modifiedTime": 1693159347005,
+    "lastModifiedBy": "CmdglLq38DpgHzdd",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_key": "!items!VgNooQ8hP4GK5RKI"
+}

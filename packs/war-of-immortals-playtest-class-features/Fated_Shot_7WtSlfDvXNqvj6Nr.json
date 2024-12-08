@@ -1,0 +1,88 @@
+{
+  "folder": null,
+  "name": "Fated Shot",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Usage</strong> a ranged weapon</p>\n<hr />\n<p>Your missiles shine as they fly through the air like falling stars.</p>\n<p><strong>Immanence</strong> Your weapon ikon deals 1 additional spirit damage per weapon damage die to creatures it Strikes.</p>\n<p><strong>Transcend</strong>—@Compendium[pf2e-playtest-data.war-of-immortals-playtest-actions.FdZHceXgL30YBXpR]{Rain of Seven Lights}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-playtest-data.war-of-immortals-playtest-actions.Item.FdZHceXgL30YBXpR"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{actor|flags.pf2e.exemplar.weaponIkon.id}-damage",
+        "value": "@weapon.system.damage.dice",
+        "predicate": [
+          "immanence:weapon"
+        ],
+        "damageType": "spirit"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_ikon"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "icons/skills/targeting/crosshair-triple-strike-orange.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1692992005723,
+    "modifiedTime": 1693750666537,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "7WtSlfDvXNqvj6Nr",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!7WtSlfDvXNqvj6Nr"
+}

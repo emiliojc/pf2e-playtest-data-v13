@@ -1,0 +1,73 @@
+{
+  "folder": null,
+  "name": "Witness to Ancient Battles",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Witnesses to ancient battles may be the restless souls of warriors left unfulfilled by their final contest, valkyries and other beings from beyond naturally drawn to sites of death and battle, or even the unquiet entity formed from a battle or battlefield that has seen so much death and blood it has gained a spiritual essence of its own. Witnesses to ancient battles are often somber and grim. Apparition Skill Battlegrounds Lore, Heraldry Lore</p>\n<h2>Apparition Spells</h2>\n<p><strong>Cantrip</strong> <em>@Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield}</em>; <strong>1st</strong> <em>@Compendium[pf2e.spells-srd.TFitdEOpQC4SzKQQ]{Runic Weapon}</em>; <strong>2nd</strong> <em>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{Enlarge}</em>; <strong>3rd</strong> <em>@Compendium[pf2e.spells-srd.AMEu5zzLN7uCX645]{Ghostly Weapon}</em>; <strong>4th</strong> <em>@Compendium[pf2e.spells-srd.8M03UxGXjYyDFAoy]{Weapon Storm}</em>; <strong>5th</strong> <em>@Compendium[pf2e.spells-srd.hghGRzOSzEl4UXdS]{Invoke Spirits}</em>; <strong>6th</strong> <em>@Compendium[pf2e.spells-srd.0XP2XOxT9VSiXFDr]{Phantasmal Calamity}</em>; <strong>7th</strong> <em>@Compendium[pf2e.spells-srd.AlbpWWN87yGegoAF]{True Target}</em>; <strong>8th</strong> <em>@Compendium[pf2e.spells-srd.qlxM7Ik3uUeUIOcv]{Canticle of Everlasting Grief}</em>; <strong>9th</strong> <em>@Compendium[pf2e.spells-srd.qsNeG9KZpODSACMq]{Foresight}</em></p>\n<h2>Vessel Spell</h2>\n<p><em>@Compendium[pf2e-playtest-data.war-of-immortals-playtest-spells.IUpYw10YcDnotpj2]{Embodiment of Battle}</em></p>\n<h2>Avatar</h2>\n<p><strong>General of Endless Battle</strong> Speed 70 feet, immune to immobilized;</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> final strike (agile, fatal d12, reach 15 feet), <strong>Damage</strong> 6d8+6 slashing</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "hb_animist"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "source": {
+      "value": "War of Immortals Class Playtest"
+    },
+    "schema": {
+      "version": 0.857,
+      "lastMigration": null
+    }
+  },
+  "img": "systems/pf2e/icons/spells/impaling-spike.webp",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.4.2",
+    "coreVersion": "12.327",
+    "createdTime": 1693019816227,
+    "modifiedTime": 1693750749498,
+    "lastModifiedBy": "eXi1EIzPxP1KjPTb",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "CkgQ29vZ8VT7tibE",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "CmdglLq38DpgHzdd": 3
+  },
+  "_key": "!items!CkgQ29vZ8VT7tibE"
+}
