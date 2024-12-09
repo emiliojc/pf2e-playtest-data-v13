@@ -1,0 +1,79 @@
+{
+  "folder": null,
+  "name": "Spell Effect: Muscle Barrier",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a +1 status bonus to athletics checks and temporary hit points.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "athletics"
+        ],
+        "value": 1,
+        "type": "status"
+      },
+      {
+        "key": "TempHP",
+        "value": "10*@item.level"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/unholy/hands-circle-light-green.webp",
+  "ownership": {
+    "default": 0,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733684973610,
+    "modifiedTime": 1733721617500,
+    "lastModifiedBy": "V4DL7FqWwg5mhC94"
+  },
+  "_id": "mljgz6sVLCA85okJ",
+  "sort": 1800000,
+  "_key": "!items!mljgz6sVLCA85okJ"
+}

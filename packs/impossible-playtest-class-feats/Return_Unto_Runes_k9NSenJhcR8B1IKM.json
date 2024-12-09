@@ -1,0 +1,71 @@
+{
+  "type": "feat",
+  "name": "Return Unto Runes",
+  "folder": "48UcGM6kSJjtWZZM",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You are targeted by a ranged spell attack.</p><p><strong>Requirements</strong> You have a hand free or are holding an artisan's toolkit.</p><hr /><p>You attempt to deconstruct an incoming spell into its individual magical components, storing them temporarily as a rune. You gain a +4 circumstance bonus to AC against the triggering attack. If the attack misses, the spell is returned to its original form sealed in a rune, which floats around your free hand or around your artisan's tools. Until the end of your next turn, you can Trace this Rune onto a creature as normal. When the rune is invoked, it has the effects of the spell you deconstructed, as if the original caster had cast it on the target. The rune affects only the creature it was applied to, even if the original spell could usually affect a greater number of targets.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "runesmith"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Impossible Playtest",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "k9NSenJhcR8B1IKM",
+  "effects": [],
+  "sort": 100196,
+  "ownership": {
+    "default": 0,
+    "xrkQVtB9iGZvxqph": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733700516098,
+    "modifiedTime": 1733700516098,
+    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+  },
+  "_key": "!items!k9NSenJhcR8B1IKM"
+}
