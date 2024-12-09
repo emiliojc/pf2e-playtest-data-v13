@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain a +3 status bonus to attack rolls and saving throws.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-spells.Item.rJ4dm9Vw7KJUKcoE]{Bind Heroic Spirit}</p><p>You gain a +3 status bonus to attack rolls and saving throws.</p>"
     },
     "rules": [
       {
@@ -67,8 +67,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733684038527,
-    "modifiedTime": 1733721617500,
-    "lastModifiedBy": "V4DL7FqWwg5mhC94"
+    "modifiedTime": 1733753952881,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_id": "MTYxqIqJVzza1Lro",
   "sort": 1600000,

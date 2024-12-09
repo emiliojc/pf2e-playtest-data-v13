@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>As you invoke runes from traditions that manipulate vital energy, you can release that energy to restore flesh. You invoke two runes of your choice on a single creature; one must be a divine rune, and one must be a primal rune. In addition to the runes' normal effects, the creature also regains Hit Points equal to your Intelligence modifier + double your level (@Damage[(2*@actor.level + @actor.system.abilities.int.mod)[healing]]).</p>"
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>As you invoke runes from traditions that manipulate vital energy, you can release that energy to restore flesh. You invoke two runes of your choice on a single creature; one must be a divine rune, and one must be a primal rune. In addition to the runes' normal effects, the creature also regains Hit Points equal to your @Damage[(2*@actor.level + @actor.system.abilities.int.mod)[healing,vitality]]{your Intelligence modifier + double your level}.</p>"
     },
     "rules": [],
     "slug": null,
@@ -71,8 +71,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733700516098,
-    "modifiedTime": 1733700516098,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733750821692,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_key": "!items!RWQNph7KgV4kSMTN"
 }

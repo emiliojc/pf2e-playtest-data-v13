@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your runes can not only draw power from the world of the spirits, but they can let even the most mundane objects harm spiritual beings as well. You can choose to grant any creature or item bearing one of your divine or occult runes the benefits of a <em>ghost touch</em> rune for as long as they are bearing your rune.</p>"
+      "value": "<p>Your runes can not only draw power from the world of the spirits, but they can let even the most mundane objects harm spiritual beings as well. You can choose to grant any creature or item bearing one of your divine or occult runes the benefits of a <em>ghost touch</em> rune for as long as they are bearing your rune.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-effects.Item.aPtwKbOPYEAYrVa4]{Effect: Ghostly Resonance}</p>"
     },
     "rules": [],
     "slug": null,
@@ -64,8 +64,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733700516098,
-    "modifiedTime": 1733700516098,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733750530803,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_key": "!items!iSaeKHpXib4kO2CM"
 }

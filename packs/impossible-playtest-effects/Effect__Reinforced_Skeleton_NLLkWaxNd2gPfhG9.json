@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>The status bonus to your Speed increases to +20 feet.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.1w5HY9sssinfLo9l]{Reinforced Skeleton}</p><p>The status bonus to your Speed increases to +20 feet.</p>"
     },
     "rules": [
       {
@@ -33,7 +33,7 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 12
     },
     "duration": {
       "value": 1,
@@ -65,8 +65,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733688770639,
-    "modifiedTime": 1733721617500,
-    "lastModifiedBy": "V4DL7FqWwg5mhC94"
+    "modifiedTime": 1733753936497,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_id": "NLLkWaxNd2gPfhG9",
   "sort": 1500000,

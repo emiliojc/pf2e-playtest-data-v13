@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain a +1 status bonus to athletics checks and temporary hit points.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-spells.Item.OKHzvgfvdR3qqiqR]{Muscle Barrier}</p><p>You gain a +1 status bonus to athletics checks and temporary Hit Points.</p>"
     },
     "rules": [
       {
@@ -70,8 +70,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733684973610,
-    "modifiedTime": 1733721617500,
-    "lastModifiedBy": "V4DL7FqWwg5mhC94"
+    "modifiedTime": 1733753979119,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_id": "mljgz6sVLCA85okJ",
   "sort": 1800000,

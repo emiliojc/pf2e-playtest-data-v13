@@ -1,19 +1,29 @@
 {
-  "folder": null,
-  "name": "Effect: Ectoplasmic Aura",
+  "name": "Effect: Ghostly Resonance",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.eefWtZieXWoMQETi]{Ectoplasmic Aura}</p><p>You gain a +1 circumstance bonus to AC.</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.iSaeKHpXib4kO2CM]{Ghostly Resonance}</p><p>Your chosen attack gains the benefits of a ghost touch rune.</p>"
     },
     "rules": [
       {
-        "key": "FlatModifier",
-        "selector": "ac",
-        "value": 1,
-        "type": "circumstance"
+        "key": "ChoiceSet",
+        "choices": {
+          "attacks": true
+        },
+        "flag": "attack",
+        "prompt": "PF2E.SpecificRule.Prompt.WeaponOrUnarmed"
+      },
+      {
+        "definition": [
+          "item:slug:{item|flags.pf2e.rulesSelections.attack}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "property-runes",
+        "value": "ghost-touch"
       }
     ],
     "slug": null,
@@ -32,7 +42,7 @@
       "remaster": true
     },
     "level": {
-      "value": 18
+      "value": 4
     },
     "duration": {
       "value": -1,
@@ -51,10 +61,13 @@
     "context": null,
     "unidentified": false
   },
-  "img": "icons/magic/unholy/orb-colllecting-energy-green.webp",
+  "_id": "aPtwKbOPYEAYrVa4",
+  "img": "icons/weapons/swords/sword-broad-serrated-blue.webp",
+  "folder": null,
+  "sort": 0,
   "ownership": {
     "default": 0,
-    "xrkQVtB9iGZvxqph": 3
+    "clGYHR8vD67PtmKk": 3
   },
   "flags": {},
   "_stats": {
@@ -63,11 +76,9 @@
     "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
-    "createdTime": 1733689646304,
-    "modifiedTime": 1733753883706,
+    "createdTime": 1733750381101,
+    "modifiedTime": 1733753770908,
     "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
-  "_id": "4rsTe6kHwAPE3HCw",
-  "sort": 1300000,
-  "_key": "!items!4rsTe6kHwAPE3HCw"
+  "_key": "!items!aPtwKbOPYEAYrVa4"
 }
