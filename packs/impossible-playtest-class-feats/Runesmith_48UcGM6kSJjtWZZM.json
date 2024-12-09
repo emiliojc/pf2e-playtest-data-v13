@@ -1,0 +1,22 @@
+{
+  "name": "Runesmith",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "48UcGM6kSJjtWZZM",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733700515991,
+    "modifiedTime": 1733700523605,
+    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+  },
+  "_key": "!folders!48UcGM6kSJjtWZZM"
+}
