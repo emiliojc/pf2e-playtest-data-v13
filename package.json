@@ -1,7 +1,7 @@
 {
   "name": "starfinder-field-test",
-  "version": "6.1.1",
-  "description": "The official Foundry module for the [Starfinder 2nd edition playtest](https://paizo.com/starfinderplaytest)!",
+  "version": "6.0",
+  "description": "The official Foundry module for the latest [Pathfinder 2nd edition playtests](https://paizo.com/pathfinderplaytest)!",
   "scripts": {
     "build": "node build.mjs",
     "extractPacks": "node extract-packs.mjs",
