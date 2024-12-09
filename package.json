@@ -1,5 +1,5 @@
 {
-  "name": "starfinder-field-test",
+  "name": "pf2e-playtest-data",
   "version": "6.0",
   "description": "The official Foundry module for the latest [Pathfinder 2nd edition playtests](https://paizo.com/pathfinderplaytest)!",
   "scripts": {
