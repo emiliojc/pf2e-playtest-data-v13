@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You can scratch out and rewrite part of an elemental rune to temporarily change the type of power it channels. You touch an adjacent <em>corrosive</em>, <em>flaming</em>, <em>frost</em>, <em>shock</em>, or <em>thundering</em> rune on an unattended item or one held by a willing creature, and you change it to any other rune from that list. The revision lasts for 1 minute before the rune's original magic reasserts itself. A rune can be revised in this way only once per day.</p><p>At 15th level, you can revise the greater version of any of the above runes into the greater version of any other rune on the list (for instance, <em>greater corrosive</em> into <em>greater frost</em>), and you can revise a rune once per hour instead of once per day.</p>"
+      "value": "<p>You can scratch out and rewrite part of an elemental rune to temporarily change the type of power it channels. You touch an adjacent <em>corrosive</em>, <em>flaming</em>, <em>frost</em>, <em>shock</em>, or <em>thundering</em> rune on an unattended item or one held by a willing creature, and you change it to any other rune from that list. The revision lasts for 1 minute before the rune's original magic reasserts itself. A rune can be revised in this way only once per day.</p><p>At 15th level, you can revise the greater version of any of the above runes into the greater version of any other rune on the list (for instance, <em>greater corrosive</em> into <em>greater frost</em>), and you can revise a rune once per hour instead of once per day.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-effects.Item.kWYh87LWxqRzFrU8]{Effect: Elemental Revision}</p>"
     },
     "rules": [],
     "slug": null,
@@ -64,8 +64,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733700516098,
-    "modifiedTime": 1733700516098,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733753403971,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_key": "!items!QW43JtWz3pVZMsKj"
 }

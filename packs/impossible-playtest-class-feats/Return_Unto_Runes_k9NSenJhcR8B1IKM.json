@@ -8,7 +8,25 @@
       "gm": "",
       "value": "<p><strong>Trigger</strong> You are targeted by a ranged spell attack.</p><p><strong>Requirements</strong> You have a hand free or are holding an artisan's toolkit.</p><hr /><p>You attempt to deconstruct an incoming spell into its individual magical components, storing them temporarily as a rune. You gain a +4 circumstance bonus to AC against the triggering attack. If the attack misses, the spell is returned to its original form sealed in a rune, which floats around your free hand or around your artisan's tools. Until the end of your next turn, you can Trace this Rune onto a creature as normal. When the rune is invoked, it has the effects of the spell you deconstructed, as if the original caster had cast it on the target. The rune affects only the creature it was applied to, even if the original spell could usually affect a greater number of targets.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "return-unto-runes",
+        "domain": "ac",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 4,
+        "type": "circumstance",
+        "predicate": [
+          "return-unto-runes",
+          "item:ranged",
+          "item:type:spell"
+        ]
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.935,
@@ -64,8 +82,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733700516098,
-    "modifiedTime": 1733700516098,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733754582546,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_key": "!items!k9NSenJhcR8B1IKM"
 }

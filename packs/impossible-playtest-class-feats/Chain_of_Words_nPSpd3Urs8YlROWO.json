@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You see the thin lines of magic between your creations. You can exploit that connection with a small shift of power traveling from one rune to another. @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.ozrq9hAuigjzwe9C]{Invoke Runes} on two different rune-bearers within 60 feet. in addition to the runes' normal effects, a chain of glowing script flows between them, dealing @Damage[((floor(@actor.level/2))d6)[force]] damage to all creatures in the line, but not the rune-bearers. Creatures can attempt a @Check[reflex|against:runesmith|basic] saving throw; on a critical failure, they are @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} as the runes seal their movements until the end of your next turn or until they @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}. The DC to escape is your class DC. At 12th level, and every 2 levels thereafter, the damage increases by 1d6.</p>"
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You see the thin lines of magic between your creations. You can exploit that connection with a small shift of power traveling from one rune to another. @UUID[Compendium.pf2e-playtest-data.impossible-playtest-actions.Item.ozrq9hAuigjzwe9C]{Invoke Runes} on two different rune-bearers within 60 feet. In addition to the runes' normal effects, a chain of glowing script flows between them, dealing @Damage[((floor(@actor.level/2))d6)[force]|options:area-damage] damage to all creatures in the line, but not the rune-bearers. Creatures can attempt a @Check[reflex|against:runesmith|basic|options:area-effect] saving throw; on a critical failure, they are @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} as the runes seal their movements until the end of your next turn or until they @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}. The DC to escape is your class DC.</p><p>At 12th level, and every 2 levels thereafter, the damage increases by 1d6.</p>"
     },
     "rules": [],
     "slug": null,
@@ -69,8 +69,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733700516098,
-    "modifiedTime": 1733700516098,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733754141071,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_key": "!items!nPSpd3Urs8YlROWO"
 }

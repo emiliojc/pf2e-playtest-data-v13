@@ -1,24 +1,21 @@
 {
-  "folder": null,
-  "name": "Effect: Become as Spirit",
+  "name": "Effect: Remote Detonation",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.yU5UsMnUXpQ9U8xt]{Become as Spirit}</p><p>You gain resistance to all damage (except force, ghost touch, spirit, or vitality) equal to half your level (rounded down).</p>"
+      "value": "<p>Granted by @UUID[Compendium.pf2e-playtest-data.impossible-playtest-class-feats.Item.EArC1mxaneUs1Pzr]{Remote Detonation}</p><p>You take a –1 circumstance penalty on saving throws against runes.</p>"
     },
     "rules": [
       {
-        "key": "Resistance",
-        "type": "all-damage",
-        "exceptions": [
-          "force",
-          "ghost-touch",
-          "spirit",
-          "vitality"
-        ],
-        "value": "floor(@actor.level/2)"
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": -1,
+        "type": "circumstance",
+        "predicate": [
+          "item:trait:rune"
+        ]
       }
     ],
     "slug": null,
@@ -37,12 +34,12 @@
       "remaster": true
     },
     "level": {
-      "value": 12
+      "value": 1
     },
     "duration": {
-      "value": 1,
+      "value": 0,
       "unit": "rounds",
-      "expiry": "turn-start",
+      "expiry": "turn-end",
       "sustained": false
     },
     "start": {
@@ -56,10 +53,13 @@
     "context": null,
     "unidentified": false
   },
-  "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
+  "_id": "DV6jJNz0hnldIYNQ",
+  "img": "icons/skills/ranged/projectile-explosion-black-orange.webp",
+  "folder": null,
+  "sort": 0,
   "ownership": {
     "default": 0,
-    "xrkQVtB9iGZvxqph": 3
+    "clGYHR8vD67PtmKk": 3
   },
   "flags": {},
   "_stats": {
@@ -68,11 +68,9 @@
     "coreVersion": "12.331",
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
-    "createdTime": 1733688296169,
-    "modifiedTime": 1733753852071,
+    "createdTime": 1733749990263,
+    "modifiedTime": 1733753812491,
     "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
-  "_id": "hr6kXQdjnl57Js1Z",
-  "sort": 1700000,
-  "_key": "!items!hr6kXQdjnl57Js1Z"
+  "_key": "!items!DV6jJNz0hnldIYNQ"
 }

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> once per hour</p><p><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Note</span></span>: Paizo did not specify how many actions this costs, so we used 2 to be in line with all non-4th level invocations</p><hr /><p>Each tradition of magic holds sway over two of the four essences that make up all of creation, and so by invoking runes from each tradition at once, you can pull from the four corners of magic to unravel anything. You invoke four runes of your choice on a single creature, which must be from each tradition of magic. In addition to the runes' normal effects, the target must also succeed at a @Check[fortitude|against:runesmith|basic] saving throw or take @Damage[10d4[force]] damage as destructive magical harmonics clash in their body. If reduced to 0 Hit Points by this damage or by the damage of any of the runes invoked, the creature's body is torn apart into glowing script that describes the creature to the smallest detail, leaving no remains but leaving their gear unharmed as the letters fade.</p>"
+      "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>Each tradition of magic holds sway over two of the four essences that make up all of creation, and so by invoking runes from each tradition at once, you can pull from the four corners of magic to unravel anything. You invoke four runes of your choice on a single creature, which must be from each tradition of magic. In addition to the runes' normal effects, the target must also succeed at a @Check[fortitude|against:runesmith|basic] saving throw or take @Damage[10d4[force]] damage as destructive magical harmonics clash in their body. If reduced to 0 Hit Points by this damage or by the damage of any of the runes invoked, the creature's body is torn apart into glowing script that describes the creature to the smallest detail, leaving no remains but leaving their gear unharmed as the letters fade.</p><hr /><p><em>Note: Paizo did not specify how many actions this costs, so we used 2 to be in line with all non-4th level invocations</em></p>"
     },
     "rules": [],
     "slug": null,
@@ -69,8 +69,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733700516098,
-    "modifiedTime": 1733700516098,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733754663157,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_key": "!items!q6lwZrZCdGsLIWwW"
 }

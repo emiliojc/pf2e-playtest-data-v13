@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>As you invoke runes from disparate traditions of magic, their diametrically opposed effects repel each other in a destructive backlash. You invoke two runes of your choice on a single creature, which must be from opposed traditions of magic; either 1 arcane and 1 divine rune, or 1 occult and 1 primal rune. in addition to the runes' normal effects, the target must also attempt a Fortitude saving throw as destructive magical harmonics clash in their body.</p><hr /><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, but if they take an action to steady themself, the sickened condition ends immediately.</p><p><strong>Failure</strong> The target is sickened 1.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>As you invoke runes from disparate traditions of magic, their diametrically opposed effects repel each other in a destructive backlash. You invoke two runes of your choice on a single creature, which must be from opposed traditions of magic; either 1 arcane and 1 divine rune, or 1 occult and 1 primal rune. in addition to the runes' normal effects, the target must also attempt a @Check[fortitude|against:runesmith] saving throw as destructive magical harmonics clash in their body.</p><hr /><p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, but if they take an action to steady themself, the sickened condition ends immediately.</p><p><strong>Failure</strong> The target is sickened 1.</p><p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
     },
     "rules": [],
     "slug": null,
@@ -69,8 +69,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733700516098,
-    "modifiedTime": 1733700516098,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733754209766,
+    "lastModifiedBy": "clGYHR8vD67PtmKk"
   },
   "_key": "!items!whGAuVEOqdjFjvOc"
 }
