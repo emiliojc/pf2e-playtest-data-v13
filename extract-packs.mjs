@@ -13,7 +13,6 @@ const packFolders = await fs.readdir(packsCompiled);
 
 const replacer = (key, value) => {
   if (key === "_stats") return undefined
-
   return value
 }
 
