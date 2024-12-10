@@ -22,6 +22,7 @@
       "otherTags": [],
       "value": [
         "concentrate",
+        "focus",
         "grave",
         "manipulate",
         "necromancer",
@@ -96,8 +97,6 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733685568744,
-    "modifiedTime": 1733853107474,
-    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_key": "!items!kFkhtDYsR9fE0pAr"
 }
