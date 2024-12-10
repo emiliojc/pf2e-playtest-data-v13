@@ -27,6 +27,16 @@
         "qA45GVv5hySaf9b5": 3
       },
       "flags": {},
+      "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.15.1",
+        "coreVersion": "12.327",
+        "createdTime": 1693578248746,
+        "modifiedTime": 1714426841653,
+        "lastModifiedBy": "GXlzMAZQRFA9Tt9v",
+        "compendiumSource": null,
+        "duplicateSource": null
+      },
       "_key": "!journal.pages!BlCKr2kCBLhQhfl2.Z4HEp0JnHXNiicQf"
     }
   ],
@@ -38,6 +48,16 @@
   },
   "flags": {
     "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.1",
+    "coreVersion": "12.327",
+    "createdTime": 1693578242937,
+    "modifiedTime": 1714426841653,
+    "lastModifiedBy": "GXlzMAZQRFA9Tt9v",
+    "compendiumSource": null,
+    "duplicateSource": null
   },
   "_id": "BlCKr2kCBLhQhfl2",
   "sort": 0,

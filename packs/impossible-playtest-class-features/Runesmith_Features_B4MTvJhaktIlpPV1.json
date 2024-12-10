@@ -8,5 +8,15 @@
   "sort": 100000,
   "color": null,
   "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733432598045,
+    "modifiedTime": 1733432611694,
+    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+  },
   "_key": "!folders!B4MTvJhaktIlpPV1"
 }

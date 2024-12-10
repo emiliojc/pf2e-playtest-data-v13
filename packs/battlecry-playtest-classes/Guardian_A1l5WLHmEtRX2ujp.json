@@ -257,6 +257,16 @@
   "flags": {
     "core": {}
   },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.0.4",
+    "coreVersion": "12.327",
+    "createdTime": 1692978694019,
+    "modifiedTime": 1719014532682,
+    "lastModifiedBy": "KF0ALP6EgXomLnUS",
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
   "_id": "A1l5WLHmEtRX2ujp",
   "sort": 0,
   "_key": "!items!A1l5WLHmEtRX2ujp"

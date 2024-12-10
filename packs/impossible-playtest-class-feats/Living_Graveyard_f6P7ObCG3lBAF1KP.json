@@ -57,5 +57,15 @@
     "xrkQVtB9iGZvxqph": 3
   },
   "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.f6P7ObCG3lBAF1KP",
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733689796426,
+    "modifiedTime": 1733689796426,
+    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+  },
   "_key": "!items!f6P7ObCG3lBAF1KP"
 }
