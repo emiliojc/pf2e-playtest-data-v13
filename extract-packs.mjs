@@ -12,8 +12,10 @@ if (!existsSync(packsCompiled)) {
 const packFolders = await fs.readdir(packsCompiled);
 
 const replacer = (key, value) => {
-  if (key === "_stats") return undefined
-  return value
+      if (key === "createdTime") return undefined
+      if (key === "modifiedTime") return undefined
+      if (key === "lastModifiedBy") return undefined
+      return value
 }
 
 console.log("Cleaning packs");
