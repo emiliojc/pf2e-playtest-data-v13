@@ -1,3 +1,5 @@
+Version 6.0.0 - Add the Necromancer and Runesmith classes from the Impossible class playtest. Remove War of Immortals playtest classes.
+
 Version 5.1.0 - Update to V12
 
 Version 5.0.3 - Correct Typo in Guardian description. Rename Instructive Strike to Set-Up Strike. Fix Commander's Banner Aura targets and save modifier. Fix Combat Assessment's recall knowledge selector.

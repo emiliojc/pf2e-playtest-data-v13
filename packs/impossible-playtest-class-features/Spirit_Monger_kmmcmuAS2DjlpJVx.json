@@ -12,6 +12,47 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "spirit-monger-damage",
+        "placement": "spellcasting",
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          }
+        ],
+        "label": "Override thrall damage"
+      },
+      {
+        "selectors": [
+          "spell-damage",
+          "inline-damage"
+        ],
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "value": "{item|flags.pf2e.rulesSelections.spiritMongerDamage}",
+        "predicate": [
+          "spirit-monger-damage",
+          {
+            "or": [
+              "item:slug:create-thrall",
+              "item:slug:bone-spear",
+              "item:slug:bony-barrage",
+              "item:slug:perfected-thrall",
+              "item:slug:skeletal-lancers",
+              "item:slug:zombie-horde"
+            ]
+          }
+        ]
       }
     ],
     "slug": null,
@@ -65,8 +106,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733433093358,
-    "modifiedTime": 1733433093358,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733852922477,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_id": "kmmcmuAS2DjlpJVx",
   "_key": "!items!kmmcmuAS2DjlpJVx"

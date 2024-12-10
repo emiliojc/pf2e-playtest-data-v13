@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You conjure forth an expendable undead thrall in range. If you have the expert necromancy class feature, you can create up to two thralls, increasing to three if you have master necromancy and four if you have legendary necromancy. When you cast the spell, you can have up to one thrall created by this spell make a melee unarmed Strike using your spell attack modifier for the attack roll. This attack deals your choice of 1d6 bludgeoning, piercing, or slashing damage. This Strike uses and counts toward your multiple attack penalty.</p><hr /><p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
+      "value": "<p>You conjure forth an expendable undead thrall in range. If you have the expert necromancy class feature, you can create up to two thralls, increasing to three if you have master necromancy and four if you have legendary necromancy. When you cast the spell, you can have up to one thrall created by this spell make a melee unarmed Strike using your spell attack modifier for the attack roll. This attack deals your choice of 1d6 bludgeoning, piercing, or slashing damage. This Strike uses and counts toward your multiple attack penalty.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.ISmLeI8zNc6YWysQ]{Thrall}</p><hr /><p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>"
     },
     "rules": [],
     "slug": null,
@@ -144,8 +144,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733685568744,
-    "modifiedTime": 1733685568744,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733846654731,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_key": "!items!77lglowVpcnRRh3g"
 }

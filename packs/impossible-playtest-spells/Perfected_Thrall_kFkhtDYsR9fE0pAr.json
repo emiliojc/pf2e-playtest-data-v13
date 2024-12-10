@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You create a perfect thrall made of pure muscle, covered in a bony exoskeleton, inhabited by the spirit of a mighty warrior. You create a thrall that has 200 Hit Points. Whenever you use an ability that would destroy this thrall, it instead loses 20 Hit Points.</p><p>Once per round on subsequent turns, you can Sustain the spell to have this thrall Stride up to 30 feet and have it Strike an adjacent enemy using your spell attack modifier. On a hit, the target takes 7d10 bludgeoning damage.</p>"
+      "value": "<p>You create a perfect thrall made of pure muscle, covered in a bony exoskeleton, inhabited by the spirit of a mighty warrior. You create a thrall that has 200 Hit Points. Whenever you use an ability that would destroy this thrall, it instead loses 20 Hit Points.</p><p>Once per round on subsequent turns, you can Sustain the spell to have this thrall Stride up to 30 feet and have it Strike an adjacent enemy using your spell attack modifier. On a hit, the target takes 7d10 bludgeoning damage.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.SX5QACMD5SvH9oeZ]{Perfected Thrall}</p>"
     },
     "rules": [],
     "slug": null,
@@ -96,8 +96,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733685568744,
-    "modifiedTime": 1733685568744,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733853107474,
+    "lastModifiedBy": "qA45GVv5hySaf9b5"
   },
   "_key": "!items!kFkhtDYsR9fE0pAr"
 }
