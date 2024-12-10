@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You create five thralls in different spaces within range. These thralls carry skeletal lances with a reach of 10 feet. When an enemy makes a Strike while in reach of a skeletal lancer thrall, the lancer deals 5 piercing damage to it. The enemy takes this damage only once, even if it's in the reach of multiple skeletal lancers.</p><p>Once per round on subsequent turns, you can Sustain the spell to have any number of these thralls Stride up to 30 feet.</p>"
+      "value": "<p>You create five thralls in different spaces within range. These thralls carry skeletal lances with a reach of 10 feet. When an enemy makes a Strike while in reach of a skeletal lancer thrall, the lancer deals 5 piercing damage to it. The enemy takes this damage only once, even if it's in the reach of multiple skeletal lancers.</p><p>Once per round on subsequent turns, you can Sustain the spell to have any number of these thralls Stride up to 30 feet.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.d1333zUKqydfJM9b]{Skeletal Lancers}</p>"
     },
     "rules": [],
     "slug": null,
@@ -85,15 +85,5 @@
     "xrkQVtB9iGZvxqph": 3
   },
   "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "12.331",
-    "systemId": "pf2e",
-    "systemVersion": "6.7.2",
-    "createdTime": 1733685568744,
-    "modifiedTime": 1733851461860,
-    "lastModifiedBy": "08H3OywEOnm7LqtN"
-  },
   "_key": "!items!qtgps2eYcmWueed1"
 }

@@ -162,6 +162,15 @@
       "type": "Item",
       "private": false,
       "flags": {}
+    },
+    {
+      "label": "Thralls",
+      "name": "impossible-playtest-thralls",
+      "path": "packs/impossible-playtest-thralls",
+      "system": "pf2e",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -179,7 +188,8 @@
         "impossible-playtest-class-feats",
         "impossible-playtest-spells",
         "impossible-playtest-runes",
-        "impossible-playtest-journals"
+        "impossible-playtest-journals",
+        "impossible-playtest-thralls"
       ]
     },
     {
@@ -194,9 +204,9 @@
         "battlecry-playtest-journals"
       ]
     }],
-  "manifest": "https://gitlab.com/TMun/pf2e-playtest-data/-/raw/master/module.json?inline=false",
-  "download": "https://gitlab.com/TMun/pf2e-playtest-data/-/archive/master/pf2e-playtest-data-master.zip",
-  "url": "https://gitlab.com/TMun/pf2e-playtest-data/",
+  "manifest": "https://github.com/TikaelSol/pf2e-playtest-data/releases/latest/download/module.json",
+  "download": "https://github.com/TikaelSol/pf2e-playtest-data/releases/download/v6.0/module.zip",
+  "url": "https://github.com/TikaelSol/pf2e-playtest-data/",
   "authors": [{
     "name": "Tim Munsie [.TMun]",
     "flags": {}

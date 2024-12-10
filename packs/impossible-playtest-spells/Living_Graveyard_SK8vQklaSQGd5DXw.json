@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You conjure forth a Gargantuan thrall that has 400 Hit Points. This thrall is a walking bulk of graves and tombstones held together by the buried dead. The living graveyard violently shakes. All creatures in a 10-foot emanation must succeed a Fortitude saving throw or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Additionally, five thralls (using the base thrall statistics) fall from their graves into empty spaces adjacent to the living graveyard. These additional thralls last until the spell ends.</p><p>Once per round on subsequent turns, you can Sustain the spell to have the living graveyard Stride up to 60 feet and cause three additional thralls to fall from their graves into empty spaces along its path.</p>"
+      "value": "<p>You conjure forth a Gargantuan thrall that has 400 Hit Points. This thrall is a walking bulk of graves and tombstones held together by the buried dead. The living graveyard violently shakes. All creatures in a 10-foot emanation must succeed a Fortitude saving throw or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Additionally, five thralls (using the base thrall statistics) fall from their graves into empty spaces adjacent to the living graveyard. These additional thralls last until the spell ends.</p><p>Once per round on subsequent turns, you can Sustain the spell to have the living graveyard Stride up to 60 feet and cause three additional thralls to fall from their graves into empty spaces along its path.</p><p>@UUID[Compendium.pf2e-playtest-data.impossible-playtest-thralls.Actor.CN6TMEeEd0Wmvkct]{Living Graveyard}</p>"
     },
     "rules": [],
     "slug": null,
@@ -74,15 +74,5 @@
     "xrkQVtB9iGZvxqph": 3
   },
   "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "12.331",
-    "systemId": "pf2e",
-    "systemVersion": "6.7.2",
-    "createdTime": 1733685568744,
-    "modifiedTime": 1733851442251,
-    "lastModifiedBy": "08H3OywEOnm7LqtN"
-  },
   "_key": "!items!SK8vQklaSQGd5DXw"
 }
