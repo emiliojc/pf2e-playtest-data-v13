@@ -162,6 +162,15 @@
       "type": "Item",
       "private": false,
       "flags": {}
+    },
+    {
+      "label": "Thralls",
+      "name": "impossible-playtest-spells",
+      "path": "packs/impossible-playtest-spells",
+      "system": "pf2e",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
     }
   ],
   "esmodules": [
