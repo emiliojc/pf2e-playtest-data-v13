@@ -58,6 +58,16 @@
     "V4DL7FqWwg5mhC94": 3
   },
   "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733721611756,
+    "modifiedTime": 1733721617500,
+    "lastModifiedBy": "V4DL7FqWwg5mhC94"
+  },
   "_id": "wkrS3JIfieW00jZR",
   "sort": 900000,
   "_key": "!items!wkrS3JIfieW00jZR"
