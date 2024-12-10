@@ -281,10 +281,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.7.2",
-        "createdTime": null,
-        "modifiedTime": 1733805536058,
-        "lastModifiedBy": "08H3OywEOnm7LqtN"
+        "systemVersion": "6.7.2"
       },
       "_key": "!actors.items!SX5QACMD5SvH9oeZ.YWrK36KFQZp3cKYU"
     },
@@ -340,10 +337,7 @@
         "duplicateSource": "Actor.v8TB6wZAXx90fHu7.Item.JbFXW4ACd8AyV07N",
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.7.2",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.7.2"
       },
       "_key": "!actors.items!SX5QACMD5SvH9oeZ.JbFXW4ACd8AyV07N"
     },
@@ -400,10 +394,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.7.2",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.7.2"
       },
       "_key": "!actors.items!SX5QACMD5SvH9oeZ.Yh9Y9TKrPvHrMm0J"
     }
@@ -415,10 +406,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
-    "createdTime": 1733803781343,
-    "modifiedTime": 1733803782898,
-    "lastModifiedBy": "08H3OywEOnm7LqtN"
+    "systemVersion": "6.7.2"
   },
   "_id": "SX5QACMD5SvH9oeZ",
   "sort": 300000,

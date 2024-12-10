@@ -31,10 +31,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.7.2",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.7.2"
       },
       "_key": "!journal.pages!ZjdvLAsp4jRYUkkK.igAu7sMd5J8F7WjZ"
     },
@@ -68,10 +65,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.7.2",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "systemVersion": "6.7.2"
       },
       "_key": "!journal.pages!ZjdvLAsp4jRYUkkK.uZmNPE7d0D7L8Z9g"
     }
@@ -87,10 +81,7 @@
     "duplicateSource": null,
     "coreVersion": "12.331",
     "systemId": "pf2e",
-    "systemVersion": "6.7.2",
-    "createdTime": 1733789035049,
-    "modifiedTime": 1733789035049,
-    "lastModifiedBy": "08H3OywEOnm7LqtN"
+    "systemVersion": "6.7.2"
   },
   "_id": "ZjdvLAsp4jRYUkkK",
   "sort": 0,
