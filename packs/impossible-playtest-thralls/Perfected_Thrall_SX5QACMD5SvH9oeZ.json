@@ -238,7 +238,15 @@
           "license": "OGL",
           "remaster": false
         },
-        "rules": [],
+        "rules": [
+          {
+            "key": "AdjustDegreeOfSuccess",
+            "selector": "all",
+            "adjustment": {
+              "all": "to-failure"
+            }
+          }
+        ],
         "slug": null,
         "traits": {
           "otherTags": [],
@@ -275,8 +283,8 @@
         "systemId": "pf2e",
         "systemVersion": "6.7.2",
         "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
+        "modifiedTime": 1733805536058,
+        "lastModifiedBy": "08H3OywEOnm7LqtN"
       },
       "_key": "!actors.items!SX5QACMD5SvH9oeZ.YWrK36KFQZp3cKYU"
     },
