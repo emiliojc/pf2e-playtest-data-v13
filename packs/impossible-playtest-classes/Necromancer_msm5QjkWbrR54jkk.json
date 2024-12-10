@@ -180,7 +180,6 @@
     },
     "classFeatLevels": {
       "value": [
-        1,
         2,
         4,
         6,
@@ -244,8 +243,8 @@
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1733433642747,
-    "modifiedTime": 1733433642747,
-    "lastModifiedBy": "xrkQVtB9iGZvxqph"
+    "modifiedTime": 1733851970391,
+    "lastModifiedBy": "08H3OywEOnm7LqtN"
   },
   "_id": "msm5QjkWbrR54jkk",
   "sort": 0,
