@@ -276,16 +276,6 @@
         "08H3OywEOnm7LqtN": 3
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "pf2e",
-        "systemVersion": "6.7.2",
-        "createdTime": null,
-        "modifiedTime": 1733805615152,
-        "lastModifiedBy": "08H3OywEOnm7LqtN"
-      },
       "_key": "!actors.items!ISmLeI8zNc6YWysQ.YWrK36KFQZp3cKYU"
     },
     {
@@ -335,31 +325,11 @@
         "08H3OywEOnm7LqtN": 3
       },
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "12.331",
-        "systemId": "pf2e",
-        "systemVersion": "6.7.2",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null
-      },
       "_key": "!actors.items!ISmLeI8zNc6YWysQ.JbFXW4ACd8AyV07N"
     }
   ],
   "folder": null,
   "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "12.331",
-    "systemId": "pf2e",
-    "systemVersion": "6.7.2",
-    "createdTime": 1733803786489,
-    "modifiedTime": 1733803786489,
-    "lastModifiedBy": "08H3OywEOnm7LqtN"
-  },
   "_id": "ISmLeI8zNc6YWysQ",
   "sort": 0,
   "_key": "!actors!ISmLeI8zNc6YWysQ"
