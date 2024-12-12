@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your attack creates an opening in your target's defenses for your allies to capitalize on. Strike an opponent with a weapon you are wielding or an unarmed attack you have. If the Strike is successful, the next ally to target that enemy with a Strike or spell that requires an attack roll gains a +2 circumstance bonus to the attack roll and deals an amount of additional precision damage equal to your Intelligence modifier.</p>"
+      "value": "<p>Your Guiding Shot creates a deadly opening for your allies. Whenever you hit with a ranged strike using Guiding Shot, the next attack made by an ally against that target is made with a +2 circumstance bonus (even if the Strike was not a critical hit), and the Strike deals an amount of additional precision damage equal to your Intelligence modifier.</p>"
     },
     "rules": [],
     "slug": null,
@@ -21,8 +21,7 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "commander",
-        "flourish"
+        "commander"
       ],
       "rarity": "common"
     },
@@ -45,7 +44,11 @@
       "value": 1
     },
     "prerequisites": {
-      "value": []
+      "value": [
+        {
+          "value": "Guiding Shot"
+        }
+      ]
     },
     "location": null
   },
