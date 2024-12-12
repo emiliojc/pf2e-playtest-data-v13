@@ -10,12 +10,12 @@
     },
     "height": 1,
     "width": 1,
-    "name": "NPC",
+    "name": "Recurring Nightmare",
     "actorLink": false,
     "appendNumber": false,
     "prependAdjective": false,
     "texture": {
-      "src": "systems/pf2e/icons/default-icons/npc.svg",
+      "src": "modules/pf2e-playtest-data/assets/actors/necromancer_thrall_02.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
@@ -79,7 +79,7 @@
       "radius": 0
     },
     "ring": {
-      "enabled": false,
+      "enabled": true,
       "colors": {
         "ring": null,
         "background": null
@@ -87,7 +87,7 @@
       "effects": 1,
       "subject": {
         "scale": 1,
-        "texture": null
+        "texture": "modules/pf2e-playtest-data/assets/subjects/necromancer_thrall_02.webp"
       }
     },
     "randomImg": false
@@ -224,7 +224,7 @@
       }
     }
   },
-  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "img": "modules/pf2e-playtest-data/assets/actors/necromancer_thrall_02.webp",
   "items": [
     {
       "type": "action",
