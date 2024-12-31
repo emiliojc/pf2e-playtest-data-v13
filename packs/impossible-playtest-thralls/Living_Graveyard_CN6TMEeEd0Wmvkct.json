@@ -237,7 +237,7 @@
         "rules": [
           {
             "key": "AdjustDegreeOfSuccess",
-            "selector": "all",
+            "selector": "saving-throw",
             "adjustment": {
               "all": "to-failure"
             }
@@ -277,7 +277,7 @@
         "duplicateSource": null,
         "coreVersion": "12.331",
         "systemId": "pf2e",
-        "systemVersion": "6.7.2"
+        "systemVersion": "6.8.1"
       },
       "_key": "!actors.items!CN6TMEeEd0Wmvkct.YWrK36KFQZp3cKYU"
     },
