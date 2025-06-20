@@ -216,7 +216,7 @@
         "battlecry-playtest-journals"
       ]
     }],
-  "manifest": "https://github.com/TikaelSol/pf2e-playtest-data/releases/latest/download/module.json",
+  "manifest": "https://github.com/emiliojc/pf2e-playtest-data-v13/releases/download/latest/module.json",
   "download": "https://github.com/TikaelSol/pf2e-playtest-data/releases/download/v6.0/module.zip",
   "url": "https://github.com/TikaelSol/pf2e-playtest-data/",
   "authors": [{
